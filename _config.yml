@@ -1,0 +1,18 @@
+title: "The Case for Standardized Private Markets"
+description: "A Vex platform whitepaper on bringing public market mechanics to private equity and debt"
+baseurl: "/vex-whitepaper"
+url: "https://vex-holdings.github.io"
+
+theme: just-the-docs
+
+color_scheme: dark
+
+mermaid:
+  version: "10"
+
+nav_sort: order
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
