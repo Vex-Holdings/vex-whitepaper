@@ -1,0 +1,48 @@
+% Fonts: clean sans-serif via helvet (pdflatex compatible)
+\usepackage[T1]{fontenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Colors
+\usepackage{xcolor}
+\definecolor{vexdark}{HTML}{1a1625}
+\definecolor{vexaccent}{HTML}{c840c0}
+\definecolor{vextext}{HTML}{e0d8ec}
+\definecolor{vexlink}{HTML}{c840c0}
+
+% Headers and footers
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\fancyhead[L]{\small\textcolor{gray}{The Case for Standardized Private Markets}}
+\renewcommand{\headrulewidth}{0pt}
+
+% Section page breaks
+\usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
+
+% Hyperref colors
+\hypersetup{
+  colorlinks=true,
+  linkcolor=vexlink,
+  urlcolor=vexlink,
+  citecolor=vexlink,
+}
+
+% Cover page command
+\newcommand{\makecover}{%
+  \begin{titlepage}
+  \newgeometry{margin=0in}
+  \pagecolor{vexdark}
+  \begin{center}
+  \vspace*{3in}
+  {\fontsize{32}{38}\selectfont\textcolor{white}{\textbf{The Case for Standardized}}}\\[12pt]
+  {\fontsize{32}{38}\selectfont\textcolor{white}{\textbf{Private Markets}}}\\[36pt]
+  {\fontsize{16}{22}\selectfont\textcolor{vextext}{A Vex Platform Whitepaper}}\\[24pt]
+  {\fontsize{12}{16}\selectfont\textcolor{vextext}{March 2026}}
+  \end{center}
+  \restoregeometry
+  \nopagecolor
+  \end{titlepage}
+}
