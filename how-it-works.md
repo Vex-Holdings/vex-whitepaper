@@ -10,6 +10,22 @@ nav_order: 4
 
 The platform launches with early access for Qualified Purchasers. This is the first phase: auctions, fund formation, and secondary trading on the CLOB.
 
+```mermaid
+graph LR
+    A["Target"] --> B["Auction"]
+    B --> C["Fund Formation"]
+    C --> D["Deployment"]
+    D --> E["CLOB Trading"]
+    E --> F["Exit"]
+
+    style A fill:#1a1625,stroke:#c840c0,color:#e0d8ec
+    style B fill:#1a1625,stroke:#c840c0,color:#e0d8ec
+    style C fill:#1a1625,stroke:#c840c0,color:#e0d8ec
+    style D fill:#1a1625,stroke:#c840c0,color:#e0d8ec
+    style E fill:#1a1625,stroke:#c840c0,color:#e0d8ec
+    style F fill:#1a1625,stroke:#c840c0,color:#e0d8ec
+```
+
 ### 1. Target
 
 Vex identifies a venture-funded company and a target ownership percentage. Say 2% of FDV, which equals 2 million units in the 100M unit standard.

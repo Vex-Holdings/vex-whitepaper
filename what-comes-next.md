@@ -12,6 +12,16 @@ Units on the ATS are book entries maintained by Vex Registry, an SEC-registered 
 
 This is a functioning market. It works now.
 
+```mermaid
+graph LR
+    A["Today<br/><i>ATS + book entry</i>"] --> B["Bridge<br/><i>Tokenization</i>"]
+    B --> C["Tomorrow<br/><i>AMMs + lending<br/>+ composability</i>"]
+
+    style A fill:#1a1625,stroke:#c840c0,color:#e0d8ec
+    style B fill:#1a1625,stroke:#d4a853,color:#e0d8ec
+    style C fill:#1a1625,stroke:#59b359,color:#e0d8ec
+```
+
 ## Tokenization is the bridge
 
 The next step is representing those same units as on-chain tokens. Ownership remains authoritative at the transfer agent. The token is a portable representation, a receipt that can interact with other systems while the legal record stays where regulators expect it.
