@@ -16,6 +16,49 @@ LPs are not passively waiting. They are actively building exit mechanisms outsid
 
 The demand for liquidity in private markets is not theoretical. It is $240 billion of revealed preference.
 
+<div class="vex-chart chart-secondary-volume">
+  <div class="vex-chart-title">Private market secondaries volume ($ billions)</div>
+  <div class="vex-bars">
+    <div class="vex-bar-group">
+      <div class="vex-bar" style="height: 17%; background: rgba(200,64,192,0.2);">
+        <span class="vex-bar-value">$40B</span>
+      </div>
+      <div class="vex-bar-label">2019</div>
+    </div>
+    <div class="vex-bar-group">
+      <div class="vex-bar" style="height: 25%; background: rgba(200,64,192,0.3);">
+        <span class="vex-bar-value">$60B</span>
+      </div>
+      <div class="vex-bar-label">2020</div>
+    </div>
+    <div class="vex-bar-group">
+      <div class="vex-bar" style="height: 42%; background: rgba(200,64,192,0.4);">
+        <span class="vex-bar-value">$100B</span>
+      </div>
+      <div class="vex-bar-label">2021</div>
+    </div>
+    <div class="vex-bar-group">
+      <div class="vex-bar" style="height: 46%; background: rgba(200,64,192,0.5);">
+        <span class="vex-bar-value">$110B</span>
+      </div>
+      <div class="vex-bar-label">2022</div>
+    </div>
+    <div class="vex-bar-group">
+      <div class="vex-bar" style="height: 67%; background: rgba(200,64,192,0.65);">
+        <span class="vex-bar-value">$160B</span>
+      </div>
+      <div class="vex-bar-label">2023</div>
+    </div>
+    <div class="vex-bar-group">
+      <div class="vex-bar" style="height: 100%; background: #c840c0;">
+        <span class="vex-bar-value">$240B</span>
+      </div>
+      <div class="vex-bar-label">2025</div>
+    </div>
+  </div>
+  <div class="vex-chart-source">Source: McKinsey Global Private Markets Report / Jefferies</div>
+</div>
+
 ## The regulatory window is open
 
 SEC custody modernization for digital assets. [17a-4](https://www.law.cornell.edu/cfr/text/17/section-240.17a-4) audit trail alternatives for electronic records. FinCEN CDD relief reducing onboarding friction for qualified investors. The [GENIUS Act](https://www.congress.gov/bill/119th-congress/senate-bill/1582) providing federal stablecoin clarity.
