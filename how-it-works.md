@@ -26,17 +26,21 @@ Vex Capital deploys cash to acquire equity through primary channels (buying from
 
 If only partial equity is available, the fund deploys what it can and holds the remainder in cash or returns it pro rata to unit holders.
 
-## 5. Secondary Trading
+## 5. Secondary Trading (QP Board)
 
 Once the Series holds equity and resale restrictions are satisfied, units trade on the CLOB. Because the auction is a Reg D/Reg S offering, there is a holding period before secondary trading can begin. Each Series becomes a reporting issuer by filing periodic reports (10-Ks and 10-Qs), which shortens the Rule 144 holding period to six months.
 
 The reporting burden is minimal. Each Series is a single-asset SPV holding equity in one private company. The financial statements are a balance sheet with one line item (the equity position, valued at the company's latest 409A valuation pulled from Carta) and an income statement that is close to zero. The filings are templated and standardized across all Series. The same format, the same data source, the same cadence. This makes the reporting issuer path practical at scale.
 
-Six months after auction close, the CLOB opens and price discovery is continuous. The [$240B secondary market](https://www.caisgroup.com/articles/whats-behind-the-recent-growth-in-private-markets-secondaries) exists because LPs need liquidity. Vex makes it the default.
+Six months after auction close, the CLOB opens on the QP Board. Price discovery is continuous. The [$240B secondary market](https://www.caisgroup.com/articles/whats-behind-the-recent-growth-in-private-markets-secondaries) exists because LPs need liquidity. Vex makes it the default. Minimum position sizes apply on the QP Board to manage the 2,000 holder cap per Series.
 
-## 6. Governance Markets
+## 6. Graduation to the Accredited Investor Board
 
-When a material corporate decision arises, the Series can issue conditional unit classes. Because the Series is already a reporting issuer, new unit classes inherit the same six-month Rule 144 timeline. Holders trade between conditional and unconditional units on the same ATS. The market prices both outcomes in real time.
+When a ticker trades frequently enough to justify the overhead, the Series files an N-2 registration statement under the Investment Company Act. This is a graduation, not a migration. The same units, the same ATS, the same settlement infrastructure.
+
+What changes: the holder cap is removed. Minimum position sizes go away. Accredited investors (a much larger pool than qualified purchasers) can participate. And conditional equity classes can be issued and traded immediately with no holding period, because registered securities are freely tradeable.
+
+This is where governance markets live. A Series on the Accredited Investor Board can issue conditional unit classes tied to corporate decisions, and those units trade on the CLOB the next day. The six-month delay that applies on the QP Board does not apply here.
 
 ## 7. Exit
 
