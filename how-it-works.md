@@ -14,7 +14,7 @@ Vex identifies a venture-funded company and a target ownership percentage. Say 2
 
 ## 2. Auction
 
-Qualified purchasers bid on units in a Dutch auction. The auction clears at a uniform price. This is demand aggregation: buyers come first, and the fund forms from their conviction.
+Qualified purchasers bid on units in a Dutch auction conducted as a Regulation D and Regulation S offering. The auction clears at a uniform price. This is demand aggregation: buyers come first, and the fund forms from their conviction.
 
 ## 3. Fund Formation
 
@@ -28,9 +28,9 @@ If only partial equity is available, the fund deploys what it can and holds the 
 
 ## 5. Secondary Trading
 
-Once the Series holds equity, units trade on the CLOB. During deployment (between auction and acquisition), units do not trade. This is a brief lockup, typically weeks.
+Once the Series holds equity and resale restrictions are satisfied, units trade on the CLOB. Because the auction is a Reg D/Reg S offering, there is a holding period before secondary trading can begin. The timeline depends on the mix of domestic (Reg D) and offshore (Reg S) sales, and whether the Series elects to become a reporting issuer by filing periodic reports (10-Ks and 10-Qs). If the issuer reports, Rule 144 allows resale after six months. If it does not, the holding period is one year.
 
-Once deployment completes, price discovery is continuous. The [$240B secondary market](https://www.staffbayfund.com/insights/secondary-market-aum-reaches-record-high) exists because LPs need liquidity. Vex makes it the default.
+This means the CLOB may take up to a year to go live for a given Series. Once it does, price discovery is continuous. The [$240B secondary market](https://www.staffbayfund.com/insights/secondary-market-aum-reaches-record-high) exists because LPs need liquidity. Vex makes it the default.
 
 ## 6. Governance Markets
 
