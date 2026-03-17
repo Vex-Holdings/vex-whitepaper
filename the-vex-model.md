@@ -8,6 +8,18 @@ nav_order: 3
 
 Vex standardizes four layers of the private equity stack. Each one solves a specific problem.
 
+```mermaid
+graph TB
+    A["Legal Structure<br/><i>Series SPV per company</i>"] --> B["Valuation<br/><i>100M units at FDV</i>"]
+    B --> C["Trading<br/><i>ATS with CLOB</i>"]
+    C --> D["Governance<br/><i>Conditional equity</i>"]
+
+    style A fill:#1a1625,stroke:#c840c0,color:#e0d8ec
+    style B fill:#1a1625,stroke:#c840c0,color:#e0d8ec
+    style C fill:#1a1625,stroke:#c840c0,color:#e0d8ec
+    style D fill:#1a1625,stroke:#c840c0,color:#e0d8ec
+```
+
 ## Legal Structure
 
 Every position on Vex is a unit in a Series SPV. Each Series holds equity in one private company. One entity type. One set of docs. One compliance framework.
@@ -35,6 +47,22 @@ What trades on the ATS are units in the Series, not the underlying company equit
 Conditional equity replaces control rights.
 
 Both sides of a governance question (e.g., "company pivots to B2C before Q4" versus "company does not pivot") are represented by conditional unit classes. Both are real equity denominated in the same 100M unit standard. If your outcome happens before the deadline, your units convert to standard unconditional units. If the other outcome happens, your units expire worthless.
+
+```mermaid
+graph LR
+    A["Issuance<br/><i>Two unit classes created</i>"] --> B{"Deadline"}
+    B -->|"Outcome A happens"| C["Class A converts<br/>to unconditional units"]
+    B -->|"Outcome A does not happen"| D["Class B converts<br/>to unconditional units"]
+    B -->|"Outcome A happens"| E["Class B expires<br/>worthless"]
+    B -->|"Outcome A does not happen"| F["Class A expires<br/>worthless"]
+
+    style A fill:#1a1625,stroke:#c840c0,color:#e0d8ec
+    style B fill:#1a1625,stroke:#c840c0,color:#e0d8ec
+    style C fill:#1a1625,stroke:#59b359,color:#e0d8ec
+    style D fill:#1a1625,stroke:#59b359,color:#e0d8ec
+    style E fill:#1a1625,stroke:#cc4444,color:#e0d8ec
+    style F fill:#1a1625,stroke:#cc4444,color:#e0d8ec
+```
 
 The relative price of the two classes is the market's probability estimate and implied valuation under each scenario. Everyone is long the company. Nobody is short the equity. But holders can be short a particular decision.
 
