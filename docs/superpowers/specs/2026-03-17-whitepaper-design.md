@@ -180,6 +180,55 @@ Each section should include at least one chart or diagram. These are important f
 
 The visual style should match the site's dark theme. Clean, minimal, high contrast. No chartjunk. The data should speak.
 
+## PDF Generation
+
+The whitepaper must produce a polished PDF from the same markdown source files that power the Jekyll site. No separate content. One source, two outputs.
+
+**Pipeline:** Same approach as the compliance docs site (`generate-pdf.sh` in ~/vex-compliance-docs), adapted for a marketing document with higher design standards.
+
+```
+Markdown pages (in section order)
+  → assemble & strip (frontmatter, Liquid tags, Jekyll markup)
+  → pandoc produces .tex (custom LaTeX template for whitepaper styling)
+  → pdflatex pass 1
+  → pdflatex pass 2 (resolve TOC and cross-references)
+  → PDF
+```
+
+No back-of-book index needed (this is a short marketing document, not a reference manual). TOC is optional but nice to have for a 6-section paper.
+
+**Design requirements for the PDF:**
+
+1. **Cover page.** Title ("The Case for Standardized Private Markets"), subtitle ("A Vex Platform Whitepaper"), date, and a minimal brand mark or wordmark. Clean, dark background matching the site's color scheme. No stock photos.
+
+2. **Typography.** Professional serif or sans-serif body font (not Computer Modern, which screams LaTeX). Consider Inter, Source Sans Pro, or a similar clean typeface. 11pt or 12pt body. Generous margins (1.2in+).
+
+3. **Section headers.** Clear hierarchy. Section titles should be visually distinct. Page breaks before each new section.
+
+4. **Charts and diagrams.** Mermaid diagrams render to SVG or PNG for PDF inclusion. Data charts (d3/Chart.js on the web) need static SVG or PNG equivalents for the PDF pipeline. The `generate-pdf.sh` script should handle image references automatically. Charts should look good in both the dark-themed web version and the PDF (which may use a light or dark background, TBD).
+
+5. **Page numbers and running headers.** Page numbers in footer. Optional running header with section title.
+
+6. **Links.** Clickable in the PDF. Blue or accent-colored, same as the web version.
+
+**Implementation:**
+
+- Create `generate-pdf.sh` in the repo root, similar to the compliance docs version but with a custom LaTeX template (`_templates/whitepaper.latex`) for the cover page and styling.
+- Create `_templates/whitepaper.latex` with the preamble (fonts, geometry, colors, cover page layout, headers/footers).
+- Create `_templates/after-body.latex` if needed (probably empty for this document).
+- The script assembles pages in order (the-problem, the-vex-model, how-it-works, what-comes-next, why-now, get-started), strips Jekyll markup, and runs through pandoc + pdflatex.
+- Charts that are Mermaid on the web need pre-rendered images for the PDF. Either (a) use mermaid-cli (`mmdc`) to render SVGs at build time, or (b) maintain static image files alongside the Mermaid source and reference them conditionally.
+
+**Dual-format chart strategy:**
+
+For each chart or diagram, maintain two representations:
+- A Mermaid code block (renders on the Jekyll site via the Mermaid JS library)
+- A static SVG or PNG in `_assets/` (referenced in the PDF pipeline)
+
+The `generate-pdf.sh` script replaces Mermaid code blocks with image references during assembly. This keeps one source of truth for the content while allowing each output format to use its native rendering.
+
+For data-driven charts (PE returns over time, secondary market volume, etc.), use static SVGs generated from a script or design tool. These are referenced as images in both the Jekyll site and the PDF.
+
 ## Commit Strategy
 
-One commit per section page, plus one for the updated index.md and one for any shared visual assets. Eight commits total.
+One commit per section page, plus one for the updated index.md, one for the PDF pipeline (generate-pdf.sh + templates), and one for shared visual assets. Nine commits total.
