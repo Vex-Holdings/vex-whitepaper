@@ -58,11 +58,17 @@ State the thesis: you can have the liquidity, price discovery, portability, and 
 
 Note: the 100M unit standard represents FDV at the time of the auction. The fund deploys capital targeting a specific ownership percentage, but the actual ownership is whatever equity the fund ends up acquiring. If the company raises outside funding afterward, the fund's percentage dilutes. The unit count stays fixed. The secondary market price adjusts to reflect the new reality. Units are a fixed claim on what the fund holds, not a perpetual claim on a fixed percentage of the company.
 
-**Trading.** An SEC-registered ATS with two mechanisms. Dutch auctions for primary demand aggregation: qualified purchasers bid on units, a uniform clearing price is set, and the resulting capital forms the fund. A CLOB for secondary trading: price/time priority matching with atomic delivery-versus-payment settlement. No GP approval to transfer. No months of legal review. Settlement is final on execution.
+**Trading.** An SEC-registered ATS with two mechanisms. Dutch auctions for primary demand aggregation: qualified purchasers bid on units, a uniform clearing price is set, and the resulting capital forms the fund. A CLOB for secondary trading: price/time priority matching with atomic delivery-versus-payment settlement. No GP approval to transfer. No months of legal review. Settlement is final on execution. Note: what trades on the ATS are units in the Series LLC, not the underlying company equity. The Series itself holds the restricted equity. This is what makes instant settlement possible: the transfer restrictions live at the SPV level, not at the unit level.
 
 **Governance.** Conditional equity, not control rights. Instead of board seats and protective provisions, Vex introduces conditional unit classes tied to specific corporate decisions. Both sides of a governance question (e.g., "company pivots to B2C before Q4" vs "company does not pivot") are represented by conditional unit classes. Both are real equity, denominated in the same 100M-unit-per-company standard. If your outcome happens before the deadline, your units convert to standard unconditional units. If the other outcome happens, your units expire worthless. The relative price of the two classes is the market's real-time probability estimate and implied valuation under each scenario.
 
 Everyone is long the company. Nobody is short the equity. But holders can be short a particular decision. The company keeps operational freedom. Management gets a direct price signal on what the market thinks their decisions are worth. No one needs a board seat because the market is doing the governance work.
+
+Note on "simplicity" bridge: the earlier valuation section says "no complex instruments." Conditional equity is a new instrument type, but it is structurally simpler than a liquidation waterfall. Two outcomes, binary conversion, transparent pricing. The implementer should bridge this explicitly: conditional units replace opaque board negotiations with transparent market pricing. The binary outcome is simpler than a preference stack, not more complex.
+
+Note on issuance authority: Vex Capital (as ERA/fund manager) decides when to issue conditional unit classes for a material corporate decision. This is a fund management decision, similar to how a GP decides when to call capital or make distributions. The market then prices the decision. The manager triggers issuance; the market does the governance.
+
+Note on deadlines and outcomes: the deadline and outcome determination are specified in the conditional unit terms at issuance (e.g., "company announces pivot to B2C in a public filing before December 31, 2027"). Outcome verification is based on observable corporate actions, not subjective judgment. The implementer should acknowledge this is an area of ongoing design without pretending it is fully solved.
 
 ## Section 3: How It Works
 
@@ -74,15 +80,17 @@ Everyone is long the company. Nobody is short the equity. But holders can be sho
 
 3. **Fund formation.** The auction creates a 3(c)(7) Series. The cash raised is now the fund's capital.
 
-4. **Deployment.** Vex Capital (the ERA managing the fund) deploys the cash to acquire actual equity in the target company through both primary channels (buying directly from the company if they're raising) and secondary channels (buying from existing shareholders, employees, early investors who want liquidity). The company doesn't need to initiate anything. The demand side drives the process.
+4. **Deployment.** Vex Capital (the ERA managing the fund) deploys the cash to acquire actual equity in the target company through both primary channels (buying directly from the company if they're raising) and secondary channels (buying from existing shareholders, employees, early investors who want liquidity). The company does not need to initiate the process, though it may cooperate on primary transactions once approached. The demand side drives. If only partial equity is available (e.g., 0.8% instead of the target 2%), the fund deploys what it can and holds the remainder in cash or returns it pro rata. The unit price on the secondary market adjusts to reflect the actual holdings.
 
-5. **Secondary trading.** Once the Series holds equity, units trade on the CLOB. Price discovery is continuous. Any holder can sell at market price at any time.
+5. **Secondary trading.** Once the Series holds equity, units trade on the CLOB. During the deployment period (between auction close and equity acquisition), units do not trade. This is a brief lockup, analogous to the settlement period after a traditional private placement. Once deployment is complete, the CLOB opens and price discovery is continuous. The $240B secondary market exists because LPs need this. Vex makes it the default. Any holder can sell at market price at any time.
 
 6. **Governance markets.** When a material corporate decision arises, the Series can issue conditional unit classes tied to the outcome. Holders trade between conditional and unconditional units on the same ATS. The market prices the governance question in real time.
 
 7. **Exit.** Sell unconditional units on the CLOB. Settlement is immediate. No lock-up. No GP approval. No legal review.
 
 Short section. The point: every step from entry to exit runs through standardized infrastructure. No bespoke negotiation at any point.
+
+**Note on fees:** The whitepaper should briefly address how Vex makes money. The audience will expect this. Keep it to one or two sentences: Vex charges a management fee on each Series and takes a percentage of auction clearing proceeds. Exact fee structure is published in offering documents for each Series. Do not dwell on this; the point is transparency, not a fee schedule.
 
 ## Section 4: Tokenization and What Comes Next
 
@@ -98,7 +106,7 @@ Short section. The point: every step from entry to exit runs through standardize
 
 **Regulatory path.** GENIUS Act (2025), expected Clarity Act (2026), SEC custody modernization guidance (December 2025). The regulatory infrastructure for tokenized securities is arriving.
 
-**Honest framing.** State what's built (ATS, transfer agent, Solana settlement) vs what's forward-looking (AMMs, lending, composability). Clear line from today to tomorrow.
+**Honest framing.** State what's built (ATS, transfer agent, USDC cash operations on Solana) vs what's forward-looking (tokenized unit representation, AMMs, lending, composability). Today, settlement on the ATS is book-entry at the transfer agent level with cash movement via Solana USDC and Mercury wire. Tokenization of the units themselves (representing ownership on-chain) is the next step. Clear line from today to tomorrow.
 
 **Data:** $33B in tokenized real world assets as of October 2025. 11% of PE participants actively considering tokenization of secondary interests. GENIUS Act and Clarity Act changing the regulatory landscape.
 
@@ -144,6 +152,34 @@ These rules override all defaults:
 12. Specific numbers, named sources, concrete claims. No vague attributions ("experts argue", "industry reports suggest").
 13. The tone is a founder writing a research piece with conviction. Not academic detachment. Not marketing puffery. The reader should feel like someone who built the thing is explaining why it matters.
 
+## Citation Format
+
+Inline parenthetical with links. Example: "PE returned 13% annualized vs 8% for public equities ([Hamilton Lane 2025 Market Overview](url))." No footnotes. No endnotes. The reader should be able to click through to the source without leaving the sentence.
+
+## Visuals
+
+Each section should include at least one chart or diagram. These are important for the marketing impact of the paper. Use Mermaid diagrams where the content is structural (flows, relationships). Use embedded charts (d3, Chart.js, or static SVG) where the content is quantitative data.
+
+**Section 1 visuals:**
+- Chart: PE vs public market returns over time (Hamilton Lane data: $1 invested in 2015, growth to 2024 for PE, S&P 500, MSCI World)
+- Chart: Decline in US public companies since the 1990s
+- Chart: Secondary market volume growth ($240B in 2025, year over year trend)
+
+**Section 2 visuals:**
+- Diagram: The four standardization layers (legal, valuation, trading, governance) mapped to the four problems they solve
+- Diagram: Conditional equity mechanics (two unit classes, deadline, conversion/expiry outcomes)
+
+**Section 3 visuals:**
+- Diagram: Lifecycle flow from target selection through auction, fund formation, deployment, secondary trading, and exit
+
+**Section 4 visuals:**
+- Diagram: Today (ATS + book entry) to tomorrow (tokenized units + DeFi integrations) showing the progression
+
+**Section 5 visuals:**
+- Chart or timeline: Regulatory developments (GENIUS Act, Clarity Act, SEC custody modernization, FinCEN CDD relief) on a timeline
+
+The visual style should match the site's dark theme. Clean, minimal, high contrast. No chartjunk. The data should speak.
+
 ## Commit Strategy
 
-One commit per section page, plus one for the updated index.md. Seven commits total.
+One commit per section page, plus one for the updated index.md and one for any shared visual assets. Eight commits total.
