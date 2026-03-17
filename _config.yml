@@ -11,6 +11,11 @@ mermaid:
   version: "10"
 
 nav_sort: order
+search_enabled: false
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "&copy; 2026 Vex Holdings. All rights reserved."
 
 exclude:
   - Gemfile

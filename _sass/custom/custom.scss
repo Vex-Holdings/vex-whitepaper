@@ -1,0 +1,384 @@
+// Vex Whitepaper: Editorial luxury on dark ground
+// Cormorant Garamond for display, DM Sans for body
+
+// ============================================================
+// Color tokens
+// ============================================================
+$vex-bg:       #0f0c18;
+$vex-surface:  #1a1625;
+$vex-accent:   #c840c0;
+$vex-accent-soft: rgba(200, 64, 192, 0.12);
+$vex-text:     #e0d8ec;
+$vex-text-dim: #9a8eb0;
+$vex-border:   rgba(200, 64, 192, 0.2);
+$vex-gold:     #d4a853;
+
+// ============================================================
+// Base overrides
+// ============================================================
+body {
+  background-color: $vex-bg !important;
+  color: $vex-text;
+  font-family: 'DM Sans', -apple-system, sans-serif !important;
+  font-size: 16px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+
+// ============================================================
+// Main content area
+// ============================================================
+.main-content {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 3rem 2rem 6rem;
+
+  // Headings: Cormorant Garamond, editorial weight
+  h1 {
+    font-family: 'Cormorant Garamond', Georgia, serif !important;
+    font-weight: 700;
+    font-size: 2.8rem;
+    line-height: 1.15;
+    color: #fff;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+
+    &:first-child {
+      margin-top: 0;
+      font-size: 3.2rem;
+    }
+  }
+
+  h2 {
+    font-family: 'Cormorant Garamond', Georgia, serif !important;
+    font-weight: 600;
+    font-size: 1.9rem;
+    line-height: 1.25;
+    color: #fff;
+    letter-spacing: -0.01em;
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid $vex-border;
+  }
+
+  h3 {
+    font-family: 'DM Sans', sans-serif !important;
+    font-weight: 700;
+    font-size: 1.15rem;
+    color: $vex-accent;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-top: 2.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  h4 {
+    font-family: 'DM Sans', sans-serif !important;
+    font-weight: 700;
+    font-size: 1rem;
+    color: $vex-text;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  // Paragraphs
+  p {
+    margin-bottom: 1.25rem;
+    color: $vex-text;
+  }
+
+  // Links
+  a {
+    color: $vex-accent;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
+
+    &:hover {
+      border-bottom-color: $vex-accent;
+    }
+  }
+
+  // Strong text
+  strong {
+    color: #fff;
+    font-weight: 700;
+  }
+
+  // Emphasis
+  em {
+    color: $vex-text-dim;
+    font-style: italic;
+  }
+
+  // Blockquotes: pull-quote style
+  blockquote {
+    border-left: 3px solid $vex-accent;
+    background: $vex-accent-soft;
+    padding: 1.25rem 1.5rem;
+    margin: 2rem 0;
+    border-radius: 0 6px 6px 0;
+
+    p {
+      color: $vex-text;
+      font-size: 1.05rem;
+      margin-bottom: 0.5rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  // Lists
+  ul, ol {
+    margin-bottom: 1.25rem;
+    padding-left: 1.5rem;
+
+    li {
+      margin-bottom: 0.5rem;
+      color: $vex-text;
+      line-height: 1.65;
+    }
+  }
+
+  // Ordered list: use the accent for numbers
+  ol {
+    list-style: none;
+    counter-reset: item;
+    padding-left: 0;
+
+    > li {
+      counter-increment: item;
+      padding-left: 2rem;
+      position: relative;
+
+      &::before {
+        content: counter(item) ".";
+        position: absolute;
+        left: 0;
+        font-family: 'Cormorant Garamond', serif;
+        font-weight: 700;
+        font-size: 1.2rem;
+        color: $vex-accent;
+        top: -0.05em;
+      }
+    }
+  }
+
+  // Horizontal rules
+  hr {
+    border: none;
+    height: 1px;
+    background: $vex-border;
+    margin: 3rem 0;
+  }
+
+  // Code
+  code {
+    background: rgba(255,255,255,0.06);
+    padding: 0.15em 0.4em;
+    border-radius: 3px;
+    font-size: 0.88em;
+    color: $vex-gold;
+  }
+
+  pre {
+    background: $vex-surface !important;
+    border: 1px solid $vex-border;
+    border-radius: 6px;
+    padding: 1.25rem;
+    overflow-x: auto;
+
+    code {
+      background: none;
+      padding: 0;
+      color: $vex-text;
+    }
+  }
+
+  // Tables
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    font-size: 0.92rem;
+
+    th {
+      background: $vex-surface;
+      color: $vex-accent;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      font-size: 0.8rem;
+      padding: 0.75rem 1rem;
+      text-align: left;
+      border-bottom: 2px solid $vex-accent;
+    }
+
+    td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      color: $vex-text;
+      vertical-align: top;
+    }
+
+    tr:hover td {
+      background: rgba(200, 64, 192, 0.04);
+    }
+  }
+
+  // Images
+  img {
+    max-width: 100%;
+    border-radius: 6px;
+    margin: 2rem 0;
+  }
+}
+
+// ============================================================
+// Sidebar overrides
+// ============================================================
+.side-bar {
+  background-color: $vex-surface !important;
+  border-right: 1px solid rgba(255,255,255,0.06);
+
+  .site-title {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #fff !important;
+    letter-spacing: -0.01em;
+  }
+
+  .nav-list-link {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.88rem;
+    color: $vex-text-dim !important;
+    letter-spacing: 0.01em;
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    transition: all 0.15s ease;
+
+    &:hover {
+      color: #fff !important;
+      background: $vex-accent-soft;
+    }
+
+    &.active {
+      color: $vex-accent !important;
+      font-weight: 700;
+      background: $vex-accent-soft;
+    }
+  }
+}
+
+// ============================================================
+// Homepage specific
+// ============================================================
+.main-content h1:first-child {
+  font-size: 3.2rem;
+  background: linear-gradient(135deg, #fff 0%, $vex-accent 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding-bottom: 0.5rem;
+}
+
+// Subtitle styling for the "A Vex platform whitepaper" line
+.main-content h1:first-child + p > em:only-child {
+  display: block;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: $vex-accent;
+  margin-top: -0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+// ============================================================
+// Data callout boxes (use with > **$3.96** ... {: .callout})
+// ============================================================
+.callout {
+  background: $vex-surface;
+  border: 1px solid $vex-border;
+  border-radius: 8px;
+  padding: 1.5rem 2rem;
+  margin: 2rem 0;
+  text-align: center;
+
+  strong {
+    display: block;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2.5rem;
+    color: $vex-accent;
+    line-height: 1.2;
+  }
+}
+
+// ============================================================
+// Footer
+// ============================================================
+.site-footer {
+  border-top: 1px solid rgba(255,255,255,0.06);
+  color: $vex-text-dim;
+  font-size: 0.8rem;
+}
+
+// ============================================================
+// Search box
+// ============================================================
+.search-input {
+  background: $vex-surface !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  color: $vex-text !important;
+  border-radius: 6px !important;
+
+  &:focus {
+    border-color: $vex-accent !important;
+    box-shadow: 0 0 0 2px $vex-accent-soft !important;
+  }
+}
+
+// ============================================================
+// Responsive
+// ============================================================
+@media (max-width: 800px) {
+  .main-content {
+    padding: 2rem 1.25rem 4rem;
+
+    h1:first-child {
+      font-size: 2.2rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+// ============================================================
+// Smooth fade-in on page load
+// ============================================================
+.main-content {
+  animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
