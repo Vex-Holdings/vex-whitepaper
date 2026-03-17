@@ -77,9 +77,6 @@ pandoc "$PROCESSED" \
     --number-sections=false \
     -o "$TEXFILE"
 
-# Inject cover page after \begin{document}
-sed -i '' 's/\\begin{document}/\\begin{document}\\makecover/' "$TEXFILE"
-
 echo "Compiling PDF (pass 1)..."
 (cd "$TMPDIR" && pdflatex -interaction=nonstopmode whitepaper.tex > /dev/null 2>&1)
 

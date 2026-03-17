@@ -12,6 +12,7 @@
 
 % Headers and footers
 \usepackage{fancyhdr}
+\setlength{\headheight}{14pt}
 \pagestyle{fancy}
 \fancyhf{}
 \fancyfoot[C]{\thepage}
@@ -22,16 +23,18 @@
 \usepackage{titlesec}
 \newcommand{\sectionbreak}{\clearpage}
 
-% Hyperref colors
-\hypersetup{
-  colorlinks=true,
-  linkcolor=vexlink,
-  urlcolor=vexlink,
-  citecolor=vexlink,
+% Defer hyperref color setup until after pandoc loads hyperref
+\AtBeginDocument{%
+  \hypersetup{%
+    colorlinks=true,
+    linkcolor=vexlink,
+    urlcolor=vexlink,
+    citecolor=vexlink,
+  }%
 }
 
-% Cover page command
-\newcommand{\makecover}{%
+% Cover page: inserted via \AtBeginDocument so it appears after \begin{document}
+\AtBeginDocument{%
   \begin{titlepage}
   \newgeometry{margin=0in}
   \pagecolor{vexdark}
