@@ -12,8 +12,6 @@ Vex standardizes four layers of the private equity stack. Each one solves a spec
 
 Every position on Vex is a unit in a Series SPV. Each Series holds equity in one private company. One entity type. One set of docs. One compliance framework.
 
-The platform is open to Qualified Purchasers and accredited investors, depending on the offering. The regulatory structure is designed around the principle that sophisticated investors need access more than they need protection.
-
 New Series launch in weeks, not months. The structure scales horizontally: each new company is a new Series, not a new fund.
 
 ## Valuation
@@ -28,7 +26,7 @@ The tradeoff is real: you give up the downside protection of preferred terms. Th
 
 ## Trading
 
-Units trade on a SEC-registered ATS with two mechanisms: Dutch auctions for demand aggregation and a continuous limit order book (CLOB) for secondary trading. Settlement is atomic delivery versus payment.
+Units trade on a SEC-registered ATS operated by [Vex Securities LLC](https://brokercheck.finra.org/firm/summary/317371) (CRD #317371, FINRA/SIPC member). Two mechanisms: Dutch auctions for demand aggregation and a continuous limit order book (CLOB) for secondary trading. Settlement is atomic delivery versus payment.
 
 What trades on the ATS are units in the Series, not the underlying company equity. The Series holds the equity. Transfer restrictions live at the SPV level, not the unit level. This is what makes instant settlement possible: unit transfers carry no company-level right of first refusal, no board approval, no 90-day notice period.
 
@@ -43,3 +41,9 @@ The relative price of the two classes is the market's probability estimate and i
 Management gets a direct price signal on what the market thinks their decisions are worth. No one needs a board seat because the market is doing the governance work.
 
 Conditional equity is simpler than a liquidation waterfall. Two outcomes, binary conversion, transparent pricing. It replaces opaque board negotiations with observable market prices.
+
+## Warehousing
+
+Existing shareholders of a company can convert their private shares into fund units. The Series issues new units as consideration to acquire the shares. The shareholder gets liquid, tradeable units on the CLOB with access to governance markets. The fund increases its position in the underlying company.
+
+This is a conversion, not a sale. The shareholder moves from illiquid private stock with no exit to liquid units with continuous price discovery. The cost is the fund's 1% annual fee (see below). For a shareholder sitting on restricted stock with no market, that's a fraction of the 20% discount they'd pay selling through back-channel secondary deals today.

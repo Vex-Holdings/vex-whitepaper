@@ -39,11 +39,3 @@ These are not speculative. The GENIUS Act passed. The custody guidance is publis
 $33 billion in tokenized real world assets as of October 2025, with the [World Economic Forum projecting](https://www.weforum.org/stories/2025/08/tokenization-assets-transform-future-of-finance/) that tokenization will reshape how financial assets move globally. 11% of PE participants are actively considering tokenization of secondary interests.
 
 The trajectory is clear. The question is not whether private market assets get tokenized. It is who builds the infrastructure that connects tokenization to real legal ownership, real compliance, and real settlement.
-
-## What is built versus what is forward-looking
-
-The ATS is registered. The transfer agent is registered. Units are trading. Settlement is live. That is today.
-
-Tokenization of units, AMM integration, lending protocols, and composable product construction are the roadmap. The legal and regulatory groundwork is laid. The technical architecture supports it. The timeline depends on regulatory clarity continuing at its current pace.
-
-We are building in sequence: legal structure first, then trading, then tokenization, then DeFi integrations. Each layer only works because the one beneath it is real.
