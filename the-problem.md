@@ -14,6 +14,31 @@ Over a longer horizon the gap widens. Since 2000, private equity has returned 13
 
 This outperformance is persistent, well documented, and widely acknowledged. The interesting question is not whether it exists. It is why.
 
+<div class="vex-chart chart-pe-returns">
+  <div class="vex-chart-title">Growth of $1 invested in 2015, measured through 2024</div>
+  <div class="vex-bars">
+    <div class="vex-bar-group">
+      <div class="vex-bar" style="height: 79%; background: #c840c0;">
+        <span class="vex-bar-value">$3.96</span>
+      </div>
+      <div class="vex-bar-label">Private Equity</div>
+    </div>
+    <div class="vex-bar-group">
+      <div class="vex-bar" style="height: 70%; background: rgba(200,64,192,0.4);">
+        <span class="vex-bar-value">$3.51</span>
+      </div>
+      <div class="vex-bar-label">S&P 500</div>
+    </div>
+    <div class="vex-bar-group">
+      <div class="vex-bar" style="height: 52%; background: rgba(200,64,192,0.2);">
+        <span class="vex-bar-value">$2.61</span>
+      </div>
+      <div class="vex-bar-label">MSCI World</div>
+    </div>
+  </div>
+  <div class="vex-chart-source">Source: Hamilton Lane 2025 Market Overview</div>
+</div>
+
 ## The public penalty
 
 Being a public company is expensive.
@@ -23,6 +48,22 @@ SOX compliance alone averages $1.6 million per year and 11,800 staff hours ([GAO
 The rational response is predictable. The number of U.S. public companies has dropped 50% since the 1990s ([Columbia Business School](https://business.columbia.edu/research-brief/regulations-costs-public-companies-ipo-decline)). Median revenue at IPO is now $218 million. Over 1,200 unicorns are choosing to stay private ([CNBC](https://www.cnbc.com/2025/10/07/ipo-market-startups-staying-private-longer-alternative-capital.html)).
 
 But the public penalty is not only compliance costs. It is quarterly earnings pressure from analysts who penalize long term investment. It is governance structures optimized for liability avoidance rather than value creation. It is boards that exist to prevent innovation rather than enable it. Companies that go public surrender operational freedom in exchange for access to capital markets and liquidity. The best companies have decided that trade is no longer worth making.
+
+<div class="vex-chart chart-company-decline">
+  <div class="vex-chart-title">Number of U.S. public companies</div>
+  <div class="vex-trend">
+    <div class="vex-trend-point">
+      <div class="vex-trend-value">~7,000</div>
+      <div class="vex-trend-label">1996</div>
+    </div>
+    <div class="vex-trend-arrow">&rarr;</div>
+    <div class="vex-trend-point">
+      <div class="vex-trend-value">~3,500</div>
+      <div class="vex-trend-label">2024</div>
+    </div>
+  </div>
+  <div class="vex-chart-source">Source: Columbia Business School</div>
+</div>
 
 This is good for private equity returns. The most valuable companies stay private longer, which means more of the value creation happens before any public investor can participate. The public penalty explains a significant portion of private equity's outperformance. It is a structural advantage, not a cyclical one.
 
