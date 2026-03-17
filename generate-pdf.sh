@@ -71,6 +71,7 @@ replace_charts() {
         print "![Secondary Market Volume](_assets/chart-secondary-volume.png)"
         next
     }
+    in_chart && /<div/ && /<\/div>/ { next }
     in_chart && /<div/ { depth++; next }
     in_chart && /<\/div>/ {
         depth--
