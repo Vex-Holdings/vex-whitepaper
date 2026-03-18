@@ -30,6 +30,12 @@ Vex acquires equity through primary and secondary channels and creates a liquid 
 
 **Vex Registry LLC** is an SEC-registered transfer agent maintaining the authoritative ownership records.
 
+## Vex Private Markets Summit
+
+April 11, 2026. Fort Mason Center, San Francisco. LP liquidity, tokenization, governance markets, and private stock trading. Robin Hanson on futarchy. Limited to 120 attendees.
+
+[vexsummit.com](https://vexsummit.com)
+
 ## Next steps
 
 Visit [vex.trade](https://vex.trade) or contact [info@vex.trade](mailto:info@vex.trade).
