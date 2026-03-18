@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "What Comes Next"
-nav_order: 5
+nav_order: 6
 ---
 
 # What Comes Next
@@ -40,9 +40,9 @@ This is not a philosophical shift. It is a distribution upgrade. The same units,
 
 ## The regulatory path is clearing
 
-The [GENIUS Act](https://www.congress.gov/bill/119th-congress/senate-bill/1582) (2025) provides federal clarity on stablecoin settlement. The expected Clarity Act (2026) would create a workable framework for digital asset classification. SEC custody modernization guidance issued in December 2025 addresses how registered entities can hold digital assets.
+The [GENIUS Act](https://www.congress.gov/bill/119th-congress/senate-bill/1582), signed into law in 2025, provides federal clarity on stablecoin settlement. SEC custody modernization guidance issued in December 2025 addresses how registered entities can hold digital assets.
 
-These are not speculative. The GENIUS Act passed. The custody guidance is published. The Clarity Act has bipartisan sponsorship and committee momentum.
+These are not speculative. The GENIUS Act is law. The custody guidance is published.
 
 ## The numbers
 
