@@ -52,13 +52,13 @@ Instead of fighting for a board seat, you trade on what you think a decision is 
 
 Conditional equity replaces control rights.
 
-Both sides of a governance question (e.g., "company pivots to B2C before Q4" versus "company does not pivot") are represented by conditional unit classes. Both are real equity denominated in the same 100M unit standard. If your outcome happens before the deadline, your units convert to standard unconditional units. If the other outcome happens, your units expire worthless.
+Both sides of a governance question (e.g., "company pivots to B2C before Q4" versus "company does not pivot") are represented by conditional unit classes. Both are real equity denominated in the same 100M unit standard. If your outcome happens before the deadline, your units convert to standard regular units. If the other outcome happens, your units expire worthless.
 
 ```mermaid
 graph LR
     A["Issuance<br/><i>Two unit classes created</i>"] --> B{"Deadline"}
-    B -->|"Outcome A happens"| C["Class A converts<br/>to unconditional units"]
-    B -->|"Outcome A does not happen"| D["Class B converts<br/>to unconditional units"]
+    B -->|"Outcome A happens"| C["Class A converts<br/>to regular units"]
+    B -->|"Outcome A does not happen"| D["Class B converts<br/>to regular units"]
     B -->|"Outcome A happens"| E["Class B expires<br/>worthless"]
     B -->|"Outcome A does not happen"| F["Class A expires<br/>worthless"]
 

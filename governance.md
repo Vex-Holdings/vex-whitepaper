@@ -16,7 +16,7 @@ As described in [The Vex Model](the-vex-model.html), Vex uses conditional equity
 
 Two conditional unit classes are created: one representing "the company pivots to enterprise" and one representing "the company does not pivot." Both are real equity, denominated in the same 100M unit standard. Both trade on the order book.
 
-If the pivot happens before the deadline, the first class converts to standard unconditional units. The second class expires worthless. If the pivot does not happen, the reverse occurs.
+If the pivot happens before the deadline, the first class converts to standard regular units. The second class expires worthless. If the pivot does not happen, the reverse occurs.
 
 The relative price of the two classes tells you everything. If "pivot" units trade at $1.20 and "no pivot" units trade at $0.80, the market is pricing a 60% probability that the pivot happens, and it is pricing the company higher under that scenario. That is not an opinion. It is capital at risk.
 
