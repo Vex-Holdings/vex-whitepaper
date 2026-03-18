@@ -23,6 +23,10 @@ All changes are in body text. No charts need updating.
 - Distributions baseline: change "10 year average of 14%" to "2015 to 2019 average of 16%" per McKinsey's primary source.
 - Hold periods: change "6.7 years" to "6.6 years" per McKinsey primary source.
 
+**why-now.md:**
+- Distributions baseline: the phrase "less than half the 10 year average" must be updated to match the corrected baseline ("less than half the 2015 to 2019 average of 16%").
+- Hold periods: change "6.7 years" to "6.6 years" (same correction as the-problem.md).
+
 **how-it-works.md:**
 - Qualified purchasers: change "roughly 1.5 million US qualified purchasers" to "roughly 2.75 million US qualified purchaser households" per DQYDJ/Federal Reserve 2023 data.
 - Accredited investors: "24 million" is confirmed correct per SEC data (24.3M households).
@@ -33,7 +37,7 @@ Keep the existing opening paragraph. Add a "Who this is for" block immediately a
 
 - **For allocators:** Continuous liquidity, real price discovery, 1% annual fee, no carried interest.
 - **For companies and shareholders:** Liquidity for your people without going public.
-- **For investors in Vex:** The infrastructure layer for a $13 trillion market that still trades like it's 1990.
+- **For investors in Vex:** The infrastructure layer for private markets that still trade like it's 1990. (Note: if citing a specific market size figure, it must be sourced in the body text. Use McKinsey's global private markets AUM figure if available, or omit the number.)
 
 Each entry is one line. No elaboration on the home page; the whitepaper body handles that.
 
@@ -42,7 +46,7 @@ Each entry is one line. No elaboration on the home page; the whitepaper body han
 Add a plain-English sentence or two before technical explanations in these sections. Never more than one sentence. Never condescending. The model is "Capital goes in. It does not come out." which the whitepaper already does perfectly.
 
 **the-vex-model.md, Valuation section:**
-Before the "100 million units at fully diluted value" explanation, add something like: "Every position is priced in one number. No preference stacks, no waterfalls, no hidden terms."
+Before the "100 million units at fully diluted value" explanation, add a plain-English lead-in. Note: the existing body text already contains "No preference stacks. No liquidation waterfalls. No anti-dilution provisions. One number, one unit, one price." The lead-in should complement, not duplicate, this. Focus on what it means for the investor rather than listing what's absent. Something like: "Every position has one price. You always know what it's worth."
 
 **the-vex-model.md, Trading section:**
 Before the ATS technical details, add something like: "You can sell your position whenever you want. Settlement is instant."
@@ -80,6 +84,8 @@ Structure:
 
 No Mermaid diagram. The existing diagram in the Vex Model page covers the mechanics. This page is about the story and the why.
 
+**Overlap management:** The Governance subsection in `the-vex-model.md` already explains conditional equity mechanics. The new page should not repeat the explanation. Instead, `the-vex-model.md` Governance subsection should stay concise (what it is) and cross-reference the new page for the full narrative (why it matters, what it replaces). The new page should reference the mechanics without re-explaining them: "As described in The Vex Model, conditional equity works by..." or similar.
+
 ### 6. Clarity Act Removal
 
 **what-comes-next.md:**
@@ -103,21 +109,22 @@ Remove the Clarity Act mention from the regulatory bullet list. The remaining it
 
 ## Files Modified
 
-- `index.md`: add "Who this is for" block
+- `index.md`: add "Who this is for" block, add governance.md entry to table of contents, renumber subsequent entries
 - `the-problem.md`: data corrections (SOX, distributions, hold periods), ELI5 glosses (DPI, 3(c)(7)), competitive positioning passage
 - `the-vex-model.md`: ELI5 lead-ins for Valuation, Trading, Governance sections
 - `how-it-works.md`: QP count correction
 - `what-comes-next.md`: remove Clarity Act references, tighten regulatory section
-- `why-now.md`: remove Clarity Act reference, update nav_order to 7
+- `why-now.md`: remove Clarity Act reference, update nav_order to 7, correct distributions baseline and hold period figures to match the-problem.md corrections
 - `get-started.md`: update nav_order to 8
 - `governance.md`: new file
+
+- `generate-pdf.sh`: add `append_page "governance.md"` between `append_page "how-it-works.md"` and `append_page "what-comes-next.md"`. No Mermaid or chart changes needed (the new page has neither).
 
 ## Files Not Modified
 
 - `_sass/custom/custom.scss`: no style changes
 - `_config.yml`: no config changes
 - `_assets/`: no chart or diagram updates (all corrections are in body text)
-- `generate-pdf.sh`: will need updating to include the new governance.md page in the PDF pipeline page order, between how-it-works.md and what-comes-next.md
 
 ## Out of Scope
 
