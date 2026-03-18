@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Why Now"
-nav_order: 6
+nav_order: 7
 ---
 
 # Why Now
@@ -10,7 +10,7 @@ Three forces are converging. Any one of them would make this worth building. Tog
 
 ## The liquidity crisis is acute
 
-Secondaries volume hit [$240 billion in 2025](https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report), up 48% year over year. Five year rolling DPI hit its lowest recorded level. Distributions as a percentage of AUM fell to 6% in early 2025, less than half the 10 year average. Average buyout hold periods reached 6.7 years, the highest in two decades.
+Secondaries volume hit [$240 billion in 2025](https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report), up 48% year over year. Five year rolling DPI hit its lowest recorded level. Distributions as a percentage of AUM fell to 6% in early 2025, less than half the 2015 to 2019 average of 16%. Average buyout hold periods reached 6.6 years, the highest in two decades.
 
 LPs are not passively waiting. They are actively building exit mechanisms outside the fund structure because the fund structure will not provide them. $240 billion per year in secondaries transactions is not a market. It is a workaround.
 
