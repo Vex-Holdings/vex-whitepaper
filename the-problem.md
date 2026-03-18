@@ -43,7 +43,7 @@ This outperformance is persistent, well documented, and widely acknowledged. The
 
 Being a public company is expensive.
 
-SOX compliance alone averages $1.6 million per year and 11,800 staff hours ([GAO](https://files.gao.gov/reports/GAO-25-107500/index.html)). Initial implementation runs $2 million to $4 million for mid-sized companies, and over 50% of public companies report those costs increasing year over year ([GAO](https://files.gao.gov/reports/GAO-25-107500/index.html)). These are direct, measurable costs. They buy no product improvement, no customer acquisition, no competitive advantage.
+SOX compliance alone averages $2.3 million per year and 15,580 staff hours ([KPMG 2025 SOX Survey](https://kpmg.com/us/en/articles/2025/2025-kpmg-sox-survey.html)). Over 50% of public companies report those costs increasing year over year ([GAO](https://files.gao.gov/reports/GAO-25-107500/index.html)). These are direct, measurable costs. They buy no product improvement, no customer acquisition, no competitive advantage.
 
 The rational response is predictable. The number of U.S. public companies has dropped 50% since the 1990s ([Columbia Business School](https://business.columbia.edu/research-brief/regulations-costs-public-companies-ipo-decline)). Median revenue at IPO is now $218 million. Over 1,200 unicorns are choosing to stay private ([CNBC](https://www.cnbc.com/2025/10/07/ipo-market-startups-staying-private-longer-alternative-capital.html)).
 
@@ -73,7 +73,7 @@ If the public penalty explains why private equity outperforms, the private penal
 
 Capital goes in. It does not come out.
 
-Five year rolling DPI (distributions to paid in capital) hit its lowest recorded level in 2025 ([McKinsey Global Private Markets Report 2026](https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report)). Distributions as a percentage of AUM fell to 6% in the first half of 2025, compared to the 10 year average of 14% ([McKinsey](https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report)). Average buyout hold periods reached 6.7 years, the highest in two decades ([McKinsey](https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report)). The median fund launched in 2019 had DPI of just 22% at the five year mark.
+Five year rolling DPI (distributions to paid in capital) hit its lowest recorded level in 2025 ([McKinsey Global Private Markets Report 2026](https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report)). Distributions as a percentage of AUM fell to 6% in the first half of 2025, compared to the 2015 to 2019 average of 16% ([McKinsey](https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report)). Average buyout hold periods reached 6.6 years, the highest in two decades ([McKinsey](https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report)). The median fund launched in 2019 had DPI of just 22% at the five year mark.
 
 These are not edge cases. GPs routinely keep capital locked for 12+ years. Some funds are over a decade in with DPI under 0.5x. LPs committed capital expecting 7 to 10 year fund lives and are now receiving distributions on a timeline that looks more like 12 to 15.
 
