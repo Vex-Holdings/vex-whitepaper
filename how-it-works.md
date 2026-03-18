@@ -54,7 +54,7 @@ Sell units on the CLOB. Settlement is immediate. No lockup. No GP approval.
 
 When a fund is fully allocated and trading actively, it graduates to the full platform. This is where the model reaches its potential.
 
-**Broader access.** The QP minimum goes away. Accredited investors can participate. The addressable market expands from the roughly 1.5 million US qualified purchasers to the estimated 24 million accredited investor households.
+**Broader access.** The QP minimum goes away. Accredited investors can participate. The addressable market expands from the roughly 2.75 million US qualified purchaser households to the estimated 24 million accredited investor households.
 
 **Warehousing.** Existing shareholders of a company can convert their private shares into fund units. The fund issues new units as consideration, acquiring additional equity. The shareholder gets liquidity. The fund grows its position. No back-channel deal required.
 
