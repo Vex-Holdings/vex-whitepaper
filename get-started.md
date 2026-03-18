@@ -6,7 +6,7 @@ nav_order: 8
 
 # Get Started
 
-The private beta is live. The infrastructure is built, registered, and operational.
+The private beta is live.
 
 ## For allocators
 

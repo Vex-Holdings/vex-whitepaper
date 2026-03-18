@@ -12,9 +12,7 @@ On Vex, both views trade.
 
 ## How it works in practice
 
-As described in [The Vex Model](the-vex-model.html), Vex uses conditional equity to turn governance questions into tradeable positions. Here is what that looks like.
-
-Two conditional unit classes are created: one representing "the company pivots to enterprise" and one representing "the company does not pivot." Both are real equity, denominated in the same 100M unit standard. Both trade on the order book.
+As described in [The Vex Model](the-vex-model.html), Vex uses conditional equity to turn governance questions into tradeable positions. Two conditional unit classes are created: one representing "the company pivots to enterprise" and one representing "the company does not pivot." Both are real equity, denominated in the same 100M unit standard. Both trade on the order book.
 
 If the pivot happens before the deadline, the first class converts to standard regular units. The second class expires worthless. If the pivot does not happen, the reverse occurs.
 
@@ -24,7 +22,7 @@ The relative price of the two classes tells you everything. If "pivot" units tra
 
 Traditional private market governance runs on three mechanisms, none of which work well. Board seats go to the largest LPs and are limited by the number of seats available. LP advisory committees are non-binding: management can listen politely and do whatever they want. Side letters are bilateral, opaque, and create misaligned incentives across the investor base.
 
-All three share the same flaw. They give a small number of large investors an illusion of influence while providing no actionable signal to management about what the broader market actually thinks.
+They give a small number of large investors an illusion of influence while providing no actionable signal to management about what the broader market actually thinks.
 
 ## Why management should want this
 

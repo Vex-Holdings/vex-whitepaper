@@ -6,7 +6,7 @@ nav_order: 3
 
 # The Vex Model
 
-Vex standardizes four layers of the private equity stack. Each one solves a specific problem.
+Vex standardizes four layers of the private equity stack.
 
 ```mermaid
 graph TB
@@ -44,7 +44,7 @@ You can sell your position whenever you want. Settlement is instant.
 
 Units trade on a SEC-registered ATS operated by [Vex Securities LLC](https://brokercheck.finra.org/firm/summary/317371) (CRD #317371, FINRA/SIPC member). Two mechanisms: Dutch auctions for demand aggregation and a continuous limit order book (CLOB) for secondary trading. Settlement is atomic delivery versus payment.
 
-What trades on the ATS are units in the Series, not the underlying company equity. The Series holds the equity. Transfer restrictions live at the SPV level, not the unit level. This is what makes instant settlement possible: unit transfers carry no company-level right of first refusal, no board approval, no 90-day notice period.
+What trades on the ATS are units in the Series, not the underlying company equity. The Series holds the equity. Transfer restrictions live at the SPV level, not the unit level. Unit transfers carry no company-level right of first refusal, no board approval, no 90-day notice period.
 
 ## Governance
 
@@ -74,7 +74,7 @@ The relative price of the two classes is the market's probability estimate and i
 
 Management gets a direct price signal on what the market thinks their decisions are worth. No one needs a board seat because the market is doing the governance work.
 
-Conditional equity is simpler than a liquidation waterfall. Two outcomes, binary conversion, transparent pricing. It replaces opaque board negotiations with observable market prices.
+Conditional equity is simpler than a liquidation waterfall. Two outcomes, binary conversion, transparent pricing.
 
 For a full walkthrough of how this works in practice and what it replaces, see [Governance Without Board Seats](governance.html).
 

@@ -42,10 +42,10 @@ This is not a philosophical shift. It is a distribution upgrade. The same units,
 
 The [GENIUS Act](https://www.congress.gov/bill/119th-congress/senate-bill/1582), signed into law in 2025, provides federal clarity on stablecoin settlement. SEC custody modernization guidance issued in December 2025 addresses how registered entities can hold digital assets.
 
-These are not speculative. The GENIUS Act is law. The custody guidance is published.
+The GENIUS Act is law. The custody guidance is published.
 
 ## The numbers
 
 $33 billion in tokenized real world assets as of October 2025, with the [World Economic Forum projecting](https://www.weforum.org/stories/2025/08/tokenization-assets-transform-future-of-finance/) that tokenization will reshape how financial assets move globally. 11% of PE participants are actively considering tokenization of secondary interests.
 
-The trajectory is clear. The question is not whether private market assets get tokenized. It is who builds the infrastructure that connects tokenization to real legal ownership, real compliance, and real settlement.
+Who builds the infrastructure that connects tokenization to real legal ownership, real compliance, and real settlement?

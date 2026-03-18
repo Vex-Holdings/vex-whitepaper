@@ -6,15 +6,13 @@ nav_order: 7
 
 # Why Now
 
-Three forces are converging. Any one of them would make this worth building. Together they make it inevitable.
+Three forces are converging.
 
 ## The liquidity crisis is acute
 
 Secondaries volume hit [$240 billion in 2025](https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report), up 48% year over year. Five year rolling DPI hit its lowest recorded level. Distributions as a percentage of AUM fell to 6% in early 2025, less than half the 2015 to 2019 average of 16%. Average buyout hold periods reached 6.6 years, the highest in two decades.
 
-LPs are not passively waiting. They are actively building exit mechanisms outside the fund structure because the fund structure will not provide them. $240 billion per year in secondaries transactions is not a market. It is a workaround.
-
-The demand for liquidity in private markets is not theoretical. It is $240 billion of revealed preference.
+$240 billion per year in secondaries is revealed preference.
 
 <div class="vex-chart chart-secondary-volume">
   <div class="vex-chart-title">Private market secondaries volume ($ billions)</div>
@@ -63,7 +61,7 @@ The demand for liquidity in private markets is not theoretical. It is $240 billi
 
 SEC custody modernization for digital assets. [17a-4](https://www.law.cornell.edu/cfr/text/17/section-240.17a-4) audit trail alternatives for electronic records. FinCEN CDD relief reducing onboarding friction for qualified investors. The [GENIUS Act](https://www.congress.gov/bill/119th-congress/senate-bill/1582) providing federal stablecoin clarity.
 
-The regulatory environment for building compliant digital financial infrastructure is more accommodating than it has been in decades. This will not last forever. Regulatory windows open and close. The current posture reflects a specific political and institutional alignment that favors innovation within existing frameworks.
+The regulatory environment for building compliant digital financial infrastructure is more accommodating than it has been in decades. This will not last forever. The current posture reflects a specific political and institutional alignment that favors innovation within existing frameworks.
 
 Building now means building with regulatory tailwinds. Building later means building against them.
 
@@ -77,8 +75,4 @@ Five years ago, building this platform would have required ten times the enginee
 
 Companies are staying private longer. Median revenue at IPO is now [$218 million](https://www.cnbc.com/2025/10/07/ipo-market-startups-staying-private-longer-alternative-capital.html). Over 1,200 unicorns have chosen not to go public. The number of U.S. public companies has dropped [50% since the 1990s](https://business.columbia.edu/research-brief/regulations-costs-public-companies-ipo-decline).
 
-Capital needs somewhere to go. Institutional allocators are increasing private market allocations. Retail qualified purchasers want access. The capital is moving toward private markets whether the infrastructure exists or not.
-
-The question is whether that capital arrives in a market that functions like a market, with price discovery, liquidity, and portability, or whether it arrives in the same opaque, illiquid structures that created the $240B secondaries workaround in the first place.
-
-We are building the former.
+Institutional allocators are increasing private market allocations. Retail qualified purchasers want access. The capital is moving whether the infrastructure exists or not.

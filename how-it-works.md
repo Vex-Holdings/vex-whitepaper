@@ -8,7 +8,7 @@ nav_order: 4
 
 ## The Private Beta
 
-The platform launches with early access for Qualified Purchasers. This is the first phase: auctions, fund formation, and secondary trading on the CLOB.
+The platform launches with early access for Qualified Purchasers.
 
 ```mermaid
 graph LR
@@ -52,7 +52,7 @@ Sell units on the CLOB. Settlement is immediate. No lockup. No GP approval.
 
 ## The Full Platform
 
-When a fund is fully allocated and trading actively, it graduates to the full platform. This is where the model reaches its potential.
+When a fund is fully allocated and trading actively, it graduates to the full platform.
 
 **Broader access.** The QP minimum goes away. Accredited investors can participate. The addressable market expands from the roughly 2.75 million US qualified purchaser households to the estimated 24 million accredited investor households.
 
