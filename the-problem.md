@@ -87,6 +87,8 @@ Think about what that number represents. $240 billion is LPs manufacturing liqui
 
 When investors spend $240 billion per year working around your product's limitations, you do not have a liquidity problem. You have a structural problem.
 
+Platforms exist that let you sell PE positions on secondary markets. But they inherit the same structural problems: one-off bilateral transactions, NAV discounts, information asymmetry, weeks to settle. They make it easier to exit. They do not make the position liquid. The difference matters. A liquid position has continuous price discovery, instant settlement, and no counterparty negotiation. A secondary sale is still just a negotiated exit with fewer phone calls.
+
 ## The thesis
 
 Private equity outperforms because the best companies stay private. That outperformance is real and structural. But the cost of accessing it is a complete absence of liquidity, price discovery, and portability. Investors are forced to choose: accept the public penalty (regulatory overhead, short termism, governance drag) or accept the private penalty (illiquidity, opacity, lock up).
