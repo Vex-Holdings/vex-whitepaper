@@ -66,6 +66,6 @@ When a fund is fully allocated and trading actively, it graduates to the full pl
 
 No carried interest. The fee is 1% per year, paid in unit dilution, starting 12 months after auction close.
 
-That is the entire fee structure. No 2/20. No management fee plus carry. No performance allocation. One number.
+That is the entire fee structure. One number. Compare that to the industry standard 2/20, where a 2% management fee compounds every year regardless of performance and 20% carry comes off the top of any gains.
 
 Vex Capital covers fund expenses during the initial period. After the full platform launches, expenses come out of the 1%.

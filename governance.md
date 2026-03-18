@@ -28,9 +28,9 @@ All three share the same flaw. They give a small number of large investors an il
 
 ## Why management should want this
 
-Conditional equity gives management something no board meeting can: a real-time, dollar-weighted signal on what the market thinks their decisions are worth. No surveys. No advisory committee minutes. No guessing whether the largest LP's objection represents the investor base or just one allocator's house view.
+Conditional equity gives management something no board meeting can: a real-time, dollar-weighted signal on what the market thinks their decisions are worth. Management does not need to commission surveys, parse advisory committee minutes, or guess whether the largest LP's objection represents the investor base or just one allocator's house view. The price tells them.
 
-The mechanism is the market itself. There are no activist campaigns because there is no need for one. If holders think a decision destroys value, the price of the corresponding conditional class drops. Management sees it immediately. The signal is continuous, transparent, and impossible to ignore.
+The mechanism is the market itself. There are no activist campaigns because there is no need for one. If holders think a decision destroys value, the price of the corresponding conditional class drops. Management sees it immediately. The signal updates with every trade and is visible to everyone.
 
 ## What this is not
 
