@@ -6,7 +6,7 @@ nav_order: 1
 
 # The Case for Standardized Private Markets
 
-*A Vex platform whitepaper*
+*A Vex platform whitepaper* · [Download as PDF](vex-whitepaper.pdf)
 
 Private markets outperform because the best companies avoid the public penalty: SOX compliance, quarterly earnings pressure, governance drag, and the operational cost of being listed. That outperformance is real and structural. But private markets impose their own penalty: illiquidity, opacity, GP control over exit timing, and capital locked for a decade or longer. Investors are forced to choose one penalty or the other. Vex eliminates the private penalty without importing the public one, by standardizing legal structure, valuation, trading, and governance into a single platform with SEC-registered infrastructure.
 
