@@ -8,6 +8,8 @@ nav_order: 1
 
 *A Vex platform whitepaper* · [Download as PDF](vex-whitepaper.pdf) · [Vex Summit, April 11, SF](https://vexsummit.com)
 
+Vex cuts the gatekeepers out of private markets so every investor gets the pricing, liquidity, and governance that only VCs get today.
+
 Private markets outperform because the best companies avoid the public penalty: SOX compliance, quarterly earnings pressure, governance drag, and the operational cost of being listed. But private markets impose their own penalty: illiquidity, opacity, GP control over exit timing, and capital locked for a decade or longer. Vex eliminates the private penalty without importing the public one, by standardizing legal structure, valuation, trading, and governance into a single platform with SEC-registered infrastructure.
 
 ## Who this is for
