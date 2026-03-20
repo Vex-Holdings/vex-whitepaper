@@ -81,7 +81,7 @@ No liquidity means no ability to rebalance. No price discovery means no ability 
 
 The clearest signal that private market structure is failing its investors is the secondaries market. In 2025, secondaries volume hit $240 billion, up 48% year over year ([McKinsey/Jefferies](https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report), [CAIS](https://www.caisgroup.com/articles/whats-behind-the-recent-growth-in-private-markets-secondaries)).
 
-$240 billion is LPs manufacturing liquidity that fund structures refuse to provide. They are selling positions at discounts to NAV, paying transaction costs, and accepting information asymmetry, all because the underlying fund structure offers no exit.
+They are selling positions at discounts to NAV, paying transaction costs, and accepting information asymmetry, all because the underlying fund structure offers no exit.
 
 When investors spend $240 billion per year working around your product's limitations, you do not have a liquidity problem. You have a structural problem.
 
