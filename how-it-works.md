@@ -40,7 +40,7 @@ The auction creates a Series SPV. Cash raised is the fund's capital.
 
 ### 4. Deployment
 
-[Vex Capital](https://adviserinfo.sec.gov) deploys the cash to acquire equity in the target company through both primary channels (buying directly from the company) and secondary channels (buying from existing shareholders, employees, and early investors who want liquidity). The company does not need to initiate anything. The demand side drives the process.
+[Vex Capital](https://adviserinfo.sec.gov) deploys the cash to acquire equity in the target company through both primary channels (buying directly from the company) and secondary channels (buying from existing shareholders, employees, and early investors who want liquidity). The company does not need to initiate anything.
 
 ### 5. Secondary Trading
 
