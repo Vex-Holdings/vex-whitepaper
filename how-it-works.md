@@ -64,8 +64,10 @@ When a fund is fully allocated and trading actively, it graduates to the full pl
 
 ## Fees
 
-No carried interest. The fee is 1% per year, paid in unit dilution, starting 12 months after auction close.
+No carried interest. The fund management fee is 1% per year, paid in unit dilution, starting 12 months after auction close. Compare that to the industry standard 2/20, where a 2% management fee compounds every year regardless of performance and 20% carry comes off the top of any gains.
 
-That is the entire fee structure. One number. Compare that to the industry standard 2/20, where a 2% management fee compounds every year regardless of performance and 20% carry comes off the top of any gains.
+When Vex Securities deploys capital to acquire equity for the fund (through secondary purchases or primary issuance), the broker-dealer charges a 5% commission on the transaction. This is paid by the selling shareholder, not by fund investors.
+
+ATS matching fees for secondary trading on the CLOB will be published before the platform opens for trading.
 
 Vex Capital covers fund expenses during the initial period. After the full platform launches, expenses come out of the 1%.
