@@ -54,13 +54,13 @@ Sell units on the CLOB. Settlement is immediate. No lockup. No GP approval.
 
 When a fund is fully allocated and trading actively, it graduates to the full platform.
 
-**Broader access.** The QP minimum goes away. Accredited investors can participate. The addressable market expands from the roughly 2.75 million US qualified purchaser households to the estimated 24 million accredited investor households.
+**Broader access.** The QP minimum goes away. Accredited investors can participate. The addressable market expands from qualified purchaser households to the broader population of accredited investor households.
 
 **Warehousing.** Existing shareholders of a company can convert their private shares into fund units. The fund issues new units as consideration, acquiring additional equity. The shareholder gets liquidity. The fund grows its position. No back-channel deal required.
 
 **Governance markets.** Conditional unit classes tied to corporate decisions become available. Holders can express a thesis on specific governance outcomes, not just on the company. Management gets a real-time price signal on what the market thinks their decisions are worth.
 
-**Public advertising.** The platform can actively market to investors instead of relying on pre-existing relationships. QPs still get early access to every new company through the private beta auctions before graduation.
+**Public advertising.** The platform can actively market to Vex platform users instead of relying on pre-existing relationships. QPs still get early access to every new company through the private beta auctions before graduation.
 
 ## Fees
 

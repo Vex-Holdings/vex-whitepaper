@@ -59,7 +59,7 @@ $240 billion per year in secondaries is revealed preference.
 
 ## The regulatory window is open
 
-SEC custody modernization for digital assets. [17a-4](https://www.law.cornell.edu/cfr/text/17/section-240.17a-4) audit trail alternatives for electronic records. FinCEN CDD relief reducing onboarding friction for qualified investors. The [GENIUS Act](https://www.congress.gov/bill/119th-congress/senate-bill/1582) providing federal stablecoin clarity.
+SEC custody modernization for digital assets. SEC Rule [17a-4](https://www.law.cornell.edu/cfr/text/17/section-240.17a-4) compliance record keeping alternatives for electronic records. FinCEN CDD relief reducing onboarding friction for qualified investors. The [GENIUS Act](https://www.congress.gov/bill/119th-congress/senate-bill/1582) providing federal stablecoin clarity.
 
 The regulatory environment for building compliant digital financial infrastructure is more accommodating than it has been in decades. This will not last forever. The current posture reflects a specific political and institutional alignment that favors innovation within existing frameworks.
 
@@ -69,7 +69,7 @@ Building now means building with regulatory tailwinds. Building later means buil
 
 Sub-second blockchain settlement on Solana. Regulatory-grade cloud storage and audit logging. Passwordless authentication. Automated KYC/AML verification pipelines.
 
-Five years ago, building this platform would have required ten times the engineering team and produced a worse product. The cost of running compliant financial infrastructure has dropped by an order of magnitude. What used to require a prime brokerage relationship, a custody bank, and a transfer agent consortium now runs on cloud infrastructure with direct regulatory registrations.
+Five years ago, building this platform would have required ten times the engineering team and produced a worse product. The cost of running compliant financial infrastructure has dropped by an order of magnitude. What used to require a prime brokerage relationship, a custody bank, and a transfer agent consortium now can run on cloud infrastructure with direct regulatory registrations.
 
 ## The structural backdrop
 

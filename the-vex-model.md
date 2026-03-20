@@ -22,15 +22,15 @@ graph TB
 
 ## Legal Structure
 
-Every position on Vex is a unit in a Series SPV. Each Series holds equity in one private company. One entity type. One set of docs. One compliance framework.
+Every position on Vex is a unit in a Series SPV (special purpose vehicle). Each Series holds equity in one private company. One entity type. One set of docs. One compliance framework.
 
 New Series launch in weeks, not months. The structure scales horizontally: each new company is a new Series, not a new fund.
 
 ## Valuation
 
-Every position has one price. You always know what it's worth.
+Every position has one price, based on the current valuation of the underlying company.
 
-Every company is 100 million units at fully diluted value. One unit equals one hundred-millionth of FDV. A Series targeting 2% of FDV issues 2 million units.
+Every company is 100 million units at fully diluted value ("FDV"). One unit equals one hundred-millionth of FDV. A Series targeting 2% of FDV issues 2 million units.
 
 Unit price equals implied FDV. If units clear at $0.50, FDV is $50M. If $2.00, FDV is $200M.
 
@@ -40,9 +40,9 @@ The tradeoff is real: you give up the downside protection of preferred terms. Th
 
 ## Trading
 
-You can sell your position whenever you want. Settlement is instant.
+You can sell your position to any qualified buyer on the order book. Settlement is instant.
 
-Units trade on a SEC-registered ATS operated by [Vex Securities LLC](https://brokercheck.finra.org/firm/summary/317371) (CRD #317371, FINRA/SIPC member). Two mechanisms: Dutch auctions for demand aggregation and a continuous limit order book (CLOB) for secondary trading. Settlement is atomic delivery versus payment.
+Units trade on a SEC-registered Alternative Trading System ("ATS") operated by [Vex Securities LLC](https://brokercheck.finra.org/firm/summary/317371) (CRD #317371, FINRA/SIPC member). Two mechanisms: Dutch auctions for demand aggregation and a continuous limit order book ("CLOB") for secondary trading. Settlement is atomic delivery versus payment.
 
 What trades on the ATS are units in the Series, not the underlying company equity. The Series holds the equity. Transfer restrictions live at the SPV level, not the unit level. Unit transfers carry no company-level right of first refusal, no board approval, no 90-day notice period.
 

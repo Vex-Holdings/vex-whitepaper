@@ -6,7 +6,7 @@ nav_order: 5
 
 # Governance Without Board Seats
 
-You hold units in a $2B SaaS company. The CEO announces a pivot from SMB to enterprise. You think that is the right call. Another holder disagrees. Today, the only way to express that view is a board seat you will never get, or a side letter no one reads.
+Say, you hold units in a $2B SaaS company. The CEO announces a pivot from SMB to enterprise. You think that is the right call. Another holder disagrees. Today, the only way to express that view is a board seat you will never get, or a side letter no one reads.
 
 On Vex, both views trade.
 

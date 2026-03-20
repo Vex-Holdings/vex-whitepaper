@@ -71,7 +71,7 @@ The most valuable companies stay private longer, which means more of the value c
 
 Capital goes in. It does not come out.
 
-Five year rolling DPI, distributions to paid in capital (the cash LPs have actually gotten back), hit its lowest recorded level in 2025 ([McKinsey Global Private Markets Report 2026](https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report)). Distributions as a percentage of AUM fell to 6% in the first half of 2025, compared to the 2015 to 2019 average of 16% ([McKinsey](https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report)). Average buyout hold periods reached 6.6 years, the highest in two decades ([McKinsey](https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report)). The median fund launched in 2019 had DPI of just 22% at the five year mark.
+Five year rolling DPI (distributions to paid in capital) (the cash LPs have actually gotten back), hit its lowest recorded level in 2025 ([McKinsey Global Private Markets Report 2026](https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report)). Distributions as a percentage of AUM fell to 6% in the first half of 2025, compared to the 2015 to 2019 average of 16% ([McKinsey](https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report)). Average buyout hold periods reached 6.6 years, the highest in two decades ([McKinsey](https://www.mckinsey.com/industries/private-capital/our-insights/global-private-markets-report)). The median fund launched in 2019 had DPI of just 22% at the five year mark.
 
 These are not edge cases. GPs routinely keep capital locked for 12+ years. Some funds are over a decade in with DPI under 0.5x. LPs committed capital expecting 7 to 10 year fund lives and are now receiving distributions on a timeline that looks more like 12 to 15.
 
@@ -89,7 +89,7 @@ Platforms exist that let you sell PE positions on secondary markets. But they in
 
 ## The thesis
 
-Private equity outperforms because the best companies stay private. But accessing those returns means accepting the private penalty: illiquidity, opacity, lock up.
+Private equity can outperform public equity because many of the best companies stay private. But accessing those returns means accepting the private penalty: illiquidity, opacity, lock up.
 
-You can have the liquidity, price discovery, portability, and access of public markets without the regulatory overhead that drives companies private in the first place. The 3(c)(7) exemption is the regulatory vehicle: a federal exemption that lets investment funds operate without the regulatory overhead of public funds, as long as every investor meets a wealth threshold. When every SPV follows the same structure, the same terms, and the same data model, positions become fungible. Fungibility enables a market. A market enables price discovery. Price discovery enables liquidity.
+You can have the liquidity, price discovery, portability, and access of public markets without the regulatory overhead that drives companies private in the first place. The 3(c)(7) exemption from registration under the Investment Company Act of 1940 is the regulatory vehicle: a federal exemption that lets investment funds operate without the regulatory overhead of public funds, as long as every investor meets a wealth threshold. When every SPV follows the same structure, the same terms, and the same data model, positions become fungible. Fungibility enables a market. A market enables price discovery. Price discovery enables liquidity.
 

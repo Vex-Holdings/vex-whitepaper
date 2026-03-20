@@ -26,7 +26,7 @@ graph LR
 
 The next step is representing those same units as on-chain tokens. Ownership remains authoritative at the transfer agent. The token is a portable representation, a receipt that can interact with other systems while the legal record stays where regulators expect it.
 
-This is not a philosophical shift. It is a distribution upgrade. The same units, the same legal structure, the same compliance framework, but now readable by any system that speaks the token standard.
+This is not a philosophical shift. It is a distribution upgrade. The same units, the same legal structure, the same compliance framework, the same fee structure, but now readable by any system that speaks the token standard. Tokenized units remain subject to the fund's 1% annual management fee, and all transfers settle through the ATS.
 
 ## What tokenization enables
 

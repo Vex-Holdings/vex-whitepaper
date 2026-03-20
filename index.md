@@ -8,9 +8,21 @@ nav_order: 1
 
 *A Vex platform whitepaper* · [Download as PDF](vex-whitepaper.pdf) · [Vex Summit, April 11, SF](https://vexsummit.com)
 
-Vex cuts the gatekeepers out of private markets so every investor gets the pricing, liquidity, and governance that only VCs get today.
+Vex attempts to cut the gatekeepers out of private markets so every investor can get the pricing, liquidity, and governance that only VCs get today.
 
-Private markets outperform because the best companies avoid the public penalty: SOX compliance, quarterly earnings pressure, governance drag, and the operational cost of being listed. But private markets impose their own penalty: illiquidity, opacity, GP control over exit timing, and capital locked for a decade or longer. Vex eliminates the private penalty without importing the public one, by standardizing legal structure, valuation, trading, and governance into a single platform with SEC-registered infrastructure.
+Private markets tend to outperform because the best companies avoid the public penalty: SOX compliance, quarterly earnings pressure, governance drag, and the operational cost of being listed. But private markets impose their own penalty: illiquidity, opacity, GP control over exit timing, and capital locked for a decade or longer. The Vex platform attempts to eliminate the private penalty without importing the public one, by standardizing legal structure, valuation, trading, and governance into a single platform with SEC-registered infrastructure.
+
+## The Vex Platform
+
+The Vex platform ("Vex") comprises three affiliated, regulated entities operating under common control:
+
+**[Vex Securities LLC](https://brokercheck.finra.org/firm/summary/317371)** is an SEC registered broker-dealer (CRD #317371), Member FINRA and SIPC, operating an SEC-registered Alternative Trading System (ATS) for secondary trading of fund units.
+
+**Vex Capital** (Vex Holdings PR Corp.) is an SEC exempt reporting adviser that manages each Series SPV (special purpose vehicle) and deploys capital to acquire equity in target companies.
+
+**Vex Registry LLC** is an SEC-registered transfer agent maintaining the authoritative ownership records for all units traded on the platform.
+
+Together, these entities form the infrastructure for standardizing private market positions into tradeable, fungible units.
 
 ## Who this is for
 
