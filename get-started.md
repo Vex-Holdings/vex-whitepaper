@@ -10,7 +10,7 @@ The private beta is live.
 
 ## For allocators
 
-If you allocate assets to private equity or private debt and you are seeking alternatives to lengthy lockups, stale quarterly marks, and GP discretion over your exit timing, this platform is built to address such concerns for you.
+You allocate to private equity or private debt. You want alternatives to decade long lockups, stale quarterly marks, and GP discretion over your exit timing.
 
 Vex units settle atomically. Price discovery is continuous. You can place sell orders on the order book at any time; execution depends on counterparty availability at an acceptable price. The fee is 1% per year. No carried interest.
 
@@ -18,9 +18,9 @@ Qualified Purchasers ($5M+ in investments for individuals, $25M+ for institution
 
 ## For companies and shareholders
 
-If you want to offer employees and early investors liquidity opportunities without going public, this platform is built for you.
+You want to offer employees and early investors liquidity opportunities without going public.
 
-Vex acquires access to private equity through primary and secondary channels and provides a platform designed to create a liquid market for units representing that position. Existing shareholders can convert private shares directly into tradeable fund units through warehousing, as described in [The Vex Model](the-vex-model.html#warehousing). Your cap table stays clean as entries can be addressed on the fund level. Your governance can be controlled. Your shareholders have an opportunity for liquidity.
+Vex acquires equity through primary and secondary channels and creates a market for tradeable units representing that position. Existing shareholders can convert private shares into fund units through warehousing (see [The Vex Model](the-vex-model.html#warehousing)). Your cap table stays clean. Your governance stays controlled. Your shareholders get an opportunity for liquidity.
 
 ## The platform
 

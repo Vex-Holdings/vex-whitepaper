@@ -28,11 +28,11 @@ graph LR
 
 ### 1. Target
 
-Vex identifies a venture funded company and a target ownership percentage. Say 2% of FDV, which equals 2 million units in the 100M unit standard.
+Vex identifies a venture funded company and a target ownership percentage. Say 2% of FDV: 2 million units in the 100M unit standard.
 
 ### 2. Auction
 
-Qualified purchasers bid on units in a Dutch auction. The auction clears at a uniform price. This is demand aggregation: buyers come first, and the fund forms from their conviction.
+Qualified purchasers bid in a Dutch auction. The auction clears at a uniform price. Buyers come first. The fund forms from their conviction.
 
 ### 3. Fund Formation
 
@@ -40,7 +40,7 @@ The auction creates a Series SPV. Cash raised is the fund's capital.
 
 ### 4. Deployment
 
-[Vex Capital](https://adviserinfo.sec.gov) deploys the cash to acquire equity in the target company through both primary channels (buying directly from the company) and secondary channels (buying from existing shareholders, employees, and early investors who want liquidity). The company does not need to initiate anything.
+[Vex Capital](https://adviserinfo.sec.gov) deploys cash to acquire equity in the target through primary channels (buying from the company) and secondary channels (buying from existing shareholders, employees, and early investors). The company does not need to initiate anything.
 
 ### 5. Secondary Trading
 
@@ -58,13 +58,13 @@ When a fund is fully allocated and trading actively, it graduates to the full pl
 
 **Warehousing.** Existing shareholders can convert private shares into tradeable fund units, as described in [The Vex Model](the-vex-model.html#warehousing). The fund issues new units as consideration, acquiring additional equity. The shareholder gets a liquidity opportunity. The fund grows its position.
 
-**Governance markets.** Conditional unit classes tied to corporate decisions become available, as described in [Governance Without Board Seats](governance.html). Holders can express a thesis on specific governance outcomes. Management gets a price signal on what the market thinks their decisions are worth.
+**Governance markets.** Conditional unit classes tied to corporate decisions become available, as described in [Governance Without Board Seats](governance.html). Holders express a thesis on specific governance outcomes. Management gets a price signal.
 
-**Public advertising.** The platform can actively market to Vex platform users instead of relying on pre-existing relationships. Qualified Purchasers still get early access to every new company through the private beta auctions before graduation.
+**Public advertising.** The platform can market to Vex platform users instead of relying on pre-existing relationships. Qualified Purchasers still get early access to every new company through the private beta auctions before graduation.
 
 ## Fees
 
-No carried interest. The fund management fee is 1% per year, paid in unit dilution, starting 12 months after auction close. Compare that to the industry standard 2/20, where a 2% management fee compounds every year regardless of performance and 20% carry comes off the top of any gains.
+No carried interest. The fund management fee is 1% per year, paid in unit dilution, starting 12 months after auction close. Compare that to the industry standard 2/20: a 2% management fee compounding every year regardless of performance, plus 20% carry off the top of any gains.
 
 When Vex Securities deploys capital to acquire equity for the fund (through secondary purchases or primary issuance), the broker dealer charges a 5% commission on the transaction. This is paid by the selling shareholder, not by fund investors.
 

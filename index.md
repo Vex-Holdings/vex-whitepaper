@@ -8,9 +8,9 @@ nav_order: 1
 
 *A Vex platform whitepaper* · [Download as PDF](vex-whitepaper.pdf) · [Vex Summit, April 11, SF](https://vexsummit.com)
 
-Vex attempts to remove the gatekeepers from private markets so every qualified investor can access the pricing, liquidity, and governance that only VCs get today.
+Vex opens private markets to every qualified investor: the pricing, liquidity, and governance that only VCs get today, available through SEC registered infrastructure.
 
-Private markets tend to outperform because many of the best companies avoid the public penalty: SOX compliance, quarterly earnings pressure, governance drag, and the operational cost of being listed. But private markets impose their own penalty: illiquidity, opacity, GP control over exit timing, and capital locked for a decade or longer. The Vex platform attempts to eliminate the private penalty without importing the public one, by standardizing legal structure, valuation, trading, and governance into a single platform with SEC registered infrastructure.
+Private markets have historically outperformed because the best companies avoid the public penalty: SOX compliance, quarterly earnings pressure, governance drag. But private markets impose their own penalty: illiquidity, opacity, GP control over exit timing, capital locked for a decade or longer. Vex eliminates the private penalty without importing the public one. The mechanism: standardized legal structure, valuation, trading, and governance on a single platform.
 
 ## The Vex Platform
 
@@ -22,8 +22,6 @@ The Vex platform ("Vex") comprises three affiliated, regulated entities operatin
 
 **Vex Registry LLC** is an SEC registered transfer agent maintaining the authoritative ownership records for all units traded on the platform.
 
-Together, these entities form the infrastructure for standardizing private market positions into tradeable, fungible units.
-
 ## Who this is for
 
 **For allocators.** Continuous liquidity, real price discovery, 1% annual fee, no carried interest.
@@ -34,15 +32,15 @@ Together, these entities form the infrastructure for standardizing private marke
 
 ## Contents
 
-1. [The Problem](the-problem.html): Private equity tends to outperform public markets, but accessing those returns means accepting illiquidity, stale pricing, and no portability.
+1. [The Problem](the-problem.html): Private equity has historically outperformed public markets, but accessing those returns means accepting illiquidity, stale pricing, and no portability.
 
-2. [The Vex Model](the-vex-model.html): Four layers of standardization (legal structure, valuation, trading, governance) that are designed to make private market positions fungible and tradeable.
+2. [The Vex Model](the-vex-model.html): Four layers of standardization (legal structure, valuation, trading, governance) that make private market positions fungible and tradeable.
 
 3. [How It Works](how-it-works.html): From target identification to exit, every step running through standardized infrastructure.
 
 4. [Governance Without Board Seats](governance.html): How conditional equity replaces board seats, advisory committees, and side letters with transparent market pricing.
 
-5. [What Comes Next](what-comes-next.html): The ATS is what exists today. Tokenization is the bridge. DeFi integrations are where this may go.
+5. [What Comes Next](what-comes-next.html): The ATS exists today. Tokenization is the bridge. DeFi integrations are where this heads next.
 
 6. [Why Now](why-now.html): The liquidity crisis is acute, the regulatory window is open, and the technology is ready.
 

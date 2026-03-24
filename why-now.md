@@ -10,9 +10,9 @@ Three forces are converging.
 
 ## The liquidity crisis is acute
 
-As detailed in [The Problem](the-problem.html#lps-are-already-telling-you-this-is-broken), secondaries volume hit $240 billion in 2025, up 48% year over year. Five year rolling DPI hit its lowest recorded level. Distributions fell to 6% of AUM in early 2025, less than half the 2015 to 2019 average. Hold periods reached 6.6 years, the highest in two decades.
+As detailed in [The Problem](the-problem.html#lps-are-already-telling-you-this-is-broken), secondaries volume hit $240 billion in 2025, up 48% year over year. Five year rolling DPI hit its lowest recorded level. Distributions fell to 6% of AUM, less than half the historical average.
 
-$240 billion per year in secondaries is revealed preference.
+$240 billion per year in secondaries is revealed preference. LPs want out.
 
 <div class="vex-chart chart-secondary-volume">
   <div class="vex-chart-title">Private market secondaries volume ($ billions)</div>
@@ -61,18 +61,16 @@ $240 billion per year in secondaries is revealed preference.
 
 SEC custody modernization for digital assets. SEC Rule [17a-4](https://www.law.cornell.edu/cfr/text/17/section-240.17a-4) compliance record keeping alternatives for electronic records. FinCEN CDD relief reducing onboarding friction for qualified investors. The [GENIUS Act](https://www.congress.gov/bill/119th-congress/senate-bill/1582) providing federal stablecoin clarity.
 
-The regulatory environment for building compliant digital financial infrastructure is more accommodating than it has been in years. This may not last. The current posture reflects a specific political and institutional alignment that favors innovation within existing frameworks.
+The regulatory environment for compliant digital financial infrastructure is more accommodating than it has been in years. This window reflects a specific political and institutional alignment. It may not last.
 
 ## The technology is ready
 
 Sub second blockchain settlement on Solana. Regulatory grade cloud storage and audit logging. Passwordless authentication. Automated KYC/AML verification pipelines.
 
-Five years ago, building this platform would have required a much larger engineering team and produced a worse product. The cost of running compliant financial infrastructure has dropped significantly. What used to require a prime brokerage relationship, a custody bank, and a transfer agent consortium can now run on cloud infrastructure with direct regulatory registrations.
+Five years ago, building this would have required a much larger team and produced a worse product. What used to require a prime brokerage relationship, a custody bank, and a transfer agent consortium now runs on cloud infrastructure with direct regulatory registrations.
 
 ## The structural backdrop
 
-As outlined in [The Problem](the-problem.html#the-public-penalty), companies are staying private longer. Median revenue at IPO is now $218 million. Over 1,200 unicorns have chosen not to go public. The number of U.S. public companies has dropped 50% since the 1990s.
-
-Institutional allocators are increasing private market allocations. Qualified purchasers want access. The capital is moving whether the infrastructure exists or not.
+Companies are staying private longer (see [The Problem](the-problem.html#the-public-penalty)). Institutional allocators are increasing private market allocations. Retail qualified purchasers want access but have no standardized way in. The capital is moving whether the infrastructure exists or not. Vex builds the infrastructure.
 
 *This document is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any securities. Investing in private market securities involves substantial risk, including the possible loss of principal. Past performance is not indicative of future results. Liquidity depends on counterparty availability and is not guaranteed. Neither Vex Securities nor its affiliates facilitate the sale of tokenized units or make recommendations related to their use. Securities offered through Vex Securities LLC, Member FINRA/SIPC.*
