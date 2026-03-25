@@ -32,7 +32,7 @@ Vex identifies a venture funded company and a target ownership percentage. Say 2
 
 ### 2. Auction
 
-Qualified purchasers bid in a Dutch auction. The auction clears at a uniform price. Buyers come first. The fund forms from their conviction.
+Qualified purchasers bid in a Dutch auction. The auction clears at a uniform price. This is demand aggregation: buyers come first, and the fund forms from their conviction.
 
 ### 3. Fund Formation
 
@@ -58,7 +58,7 @@ When a fund is fully allocated and trading actively, it graduates to the full pl
 
 **Warehousing.** Existing shareholders can convert private shares into tradeable fund units, as described in [The Vex Model](the-vex-model.html#warehousing). The fund issues new units as consideration, acquiring additional equity. The shareholder gets a liquidity opportunity. The fund grows its position.
 
-**Governance markets.** Conditional unit classes tied to corporate decisions become available, as described in [Governance Without Board Seats](governance.html). Holders express a thesis on specific governance outcomes. Management gets a price signal.
+**Governance markets.** Conditional unit classes tied to corporate decisions become available, as described in [Governance Without Board Seats](governance.html). Holders can express a thesis on specific governance outcomes, and management gets a real time price signal on what the market thinks their decisions are worth.
 
 **Public advertising.** The platform can market to Vex platform users instead of relying on pre-existing relationships. Qualified Purchasers still get early access to every new company through the private beta auctions before graduation.
 

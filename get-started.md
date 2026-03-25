@@ -20,7 +20,7 @@ Qualified Purchasers ($5M+ in investments for individuals, $25M+ for institution
 
 You want to offer employees and early investors liquidity opportunities without going public.
 
-Vex acquires equity through primary and secondary channels and creates a market for tradeable units representing that position. Existing shareholders can convert private shares into fund units through warehousing (see [The Vex Model](the-vex-model.html#warehousing)). Your cap table stays clean. Your governance stays controlled. Your shareholders get an opportunity for liquidity.
+Vex acquires equity through primary and secondary channels and creates a market for tradeable units representing that position. Existing shareholders can convert private shares into fund units through warehousing (see [The Vex Model](the-vex-model.html#warehousing)). Your cap table stays clean, your governance stays controlled, and your shareholders get an opportunity for liquidity.
 
 ## The platform
 

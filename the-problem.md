@@ -79,7 +79,7 @@ The clearest signal: the secondaries market. In 2025, secondaries volume hit $24
 
 LPs sell positions at discounts to NAV, pay transaction costs, and accept information asymmetry because the underlying fund structure offers no exit.
 
-When investors spend $240 billion per year working around your product's limitations, that is not a liquidity problem. That is a structural problem.
+When investors spend $240 billion per year working around your product's limitations, you do not have a liquidity problem. You have a structural problem.
 
 Secondary platforms exist. They inherit the same structural issues: bilateral negotiation, NAV discounts, information asymmetry, weeks to settle. They make it easier to exit. They do not make the position liquid. A liquid position has continuous price discovery, rapid settlement, and no counterparty negotiation. A secondary sale is a negotiated exit with fewer phone calls.
 

@@ -32,7 +32,7 @@ Neither Vex Securities nor its affiliates facilitate the sale of tokenized units
 
 **AMM liquidity supplementing the order book.** Automated market makers could provide continuous liquidity for units that sit idle between trades. The CLOB handles price discovery. The AMM handles availability. Both run simultaneously.
 
-**Lending against tokenized units.** Continuously priced tokenized units could serve as collateral in lending protocols. For institutional allocators who treat PE positions as non deployable capital, this is a significant unlock.
+**Lending against tokenized units.** Continuously priced tokenized units could serve as collateral in lending protocols, giving institutional allocators a way to borrow against PE positions they currently treat as dead capital.
 
 **Composability.** Third parties could bundle standardized units into indices, baskets, or structured products. When every position follows the same unit standard and legal structure, a "top 20 venture" basket becomes as simple to construct as an ETF.
 
