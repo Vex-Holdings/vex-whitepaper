@@ -1,10 +1,42 @@
 ---
 layout: default
 title: "What Comes Next"
-nav_order: 6
+nav_order: 5
 ---
 
 # What Comes Next
+
+The ATS, catalog, and book build infrastructure described in [How Vex Works](how-vex-works.html) are operational today. Two additional capabilities are on the roadmap: governance through conditional equity and tokenization of fund units. Both build on the standardized SPV and trading infrastructure already in place. Neither is a current offering.
+
+## Governance through conditional equity
+
+Traditional private market governance relies on three mechanisms. Board seats go to the largest LPs and are limited by available seats. LP advisory committees are non binding: management can listen politely and do whatever they want. Side letters are bilateral, opaque, and create misaligned incentives across the investor base. The result is that a small number of large investors get an illusion of influence while management gets no actionable signal on what the broader market thinks.
+
+Conditional equity replaces all three. Two conditional unit classes trade on the order book, each representing one side of a governance question. Both classes are real equity, denominated in the same 100M unit standard. If one outcome happens before the deadline, that class converts to standard regular units. The other class expires worthless. If the opposite outcome happens, the conversion reverses.
+
+```mermaid
+graph LR
+    A["Issuance<br/><i>Two unit classes created</i>"] --> B{"Deadline"}
+    B -->|"Outcome A happens"| C["Class A converts<br/>to regular units"]
+    B -->|"Outcome A does not happen"| D["Class B converts<br/>to regular units"]
+    B -->|"Outcome A happens"| E["Class B expires<br/>worthless"]
+    B -->|"Outcome A does not happen"| F["Class A expires<br/>worthless"]
+
+    style A fill:#1D083B,stroke:#F21DDD,color:#a09aae
+    style B fill:#1D083B,stroke:#F21DDD,color:#a09aae
+    style C fill:#1D083B,stroke:#45F08C,color:#a09aae
+    style D fill:#1D083B,stroke:#45F08C,color:#a09aae
+    style E fill:#1D083B,stroke:#F04545,color:#a09aae
+    style F fill:#1D083B,stroke:#F04545,color:#a09aae
+```
+
+The relative price of the two classes encodes the market's probability estimate and implied valuation under each scenario. If "pivot" units trade at $1.20 and "no pivot" units trade at $0.80, the market is pricing a 60% probability that the pivot happens and pricing the company higher under that scenario. That is not an opinion. It is capital at risk.
+
+Management gets something no board meeting can provide: a real time, dollar weighted signal on what the market thinks their decisions are worth. The price updates with every trade. Management does not need to commission surveys, parse advisory committee minutes, or guess whether the largest LP's objection represents the investor base or just one allocator's house view.
+
+This is not a hostile governance tool. Everyone holding conditional units is long the company. Nobody is short the equity. Holders can disagree about a specific decision while remaining aligned on the company's success. The market resolves the disagreement.
+
+This capability is under development. It is not a current offering. It involves additional risks, including the possibility that conditional units expire worthless if the specified outcome does not occur.
 
 ## What exists today
 
@@ -15,9 +47,9 @@ graph LR
     A["Today<br/><i>ATS + book entry</i>"] --> B["Bridge<br/><i>Tokenization</i>"]
     B --> C["Tomorrow<br/><i>AMMs + lending<br/>+ composability</i>"]
 
-    style A fill:#1a1625,stroke:#c840c0,color:#e0d8ec
-    style B fill:#1a1625,stroke:#d4a853,color:#e0d8ec
-    style C fill:#1a1625,stroke:#59b359,color:#e0d8ec
+    style A fill:#1D083B,stroke:#F21DDD,color:#a09aae
+    style B fill:#1D083B,stroke:#FFAA2B,color:#a09aae
+    style C fill:#1D083B,stroke:#45F08C,color:#a09aae
 ```
 
 ## Tokenization is the bridge

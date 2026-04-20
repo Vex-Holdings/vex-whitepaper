@@ -1,26 +1,26 @@
 ---
 layout: default
 title: "Get Started"
-nav_order: 8
+nav_order: 7
 ---
 
 # Get Started
-
-The private beta is live.
 
 ## For allocators
 
 You allocate to private equity or private debt. You want alternatives to decade long lockups, stale quarterly marks, and GP discretion over your exit timing.
 
-Vex units settle atomically. Price discovery is continuous. You can place sell orders on the order book at any time; execution depends on counterparty availability at an acceptable price. The fee is 1% per year. No carried interest.
+Browse the Vex catalog and commit capital through anchor commitments or book build bids. Units are priced continuously as the book develops. The fee is 1% per year. No carried interest.
 
-Qualified Purchasers ($5M+ in investments for individuals, $25M+ for institutions) can participate in the private beta today. When the full platform launches, you are already positioned: early access to every company before it opens to the broader market.
+After the 12 month seasoning period, you can place sell orders on the secondary market. Execution depends on counterparty availability at an acceptable price.
+
+Qualified Purchasers ($5M+ in investments for individuals, $25M+ for institutions) can participate today.
 
 ## For companies and shareholders
 
 You want to offer employees and early investors liquidity opportunities without going public.
 
-Vex acquires equity through primary and secondary channels and creates a market for tradeable units representing that position. Existing shareholders can convert private shares into fund units through warehousing (see [The Vex Model](the-vex-model.html#warehousing)). Your cap table stays clean, your governance stays controlled, and your shareholders get an opportunity for liquidity.
+Vex acquires equity through primary and secondary channels and creates a market for tradeable units representing that position. Existing shareholders can convert private shares into fund units through warehousing (see [How Vex Works](how-vex-works.html#warehousing)). Your cap table stays clean, your governance stays controlled, and your shareholders get an opportunity for liquidity.
 
 ## The platform
 
@@ -32,9 +32,7 @@ Vex acquires equity through primary and secondary channels and creates a market 
 
 ## Vex Private Markets Summit
 
-April 11, 2026. Fort Mason Center, San Francisco. LP liquidity, tokenization, governance markets, and private stock trading. Robin Hanson on futarchy. Limited to 120 attendees.
-
-[vexsummit.com](https://vexsummit.com)
+Vex launched at its inaugural Private Markets Summit on April 11, 2026 at Fort Mason Center in San Francisco, featuring Robin Hanson on futarchy. For updates on future events, visit [vexsummit.com](https://vexsummit.com).
 
 ## Next steps
 

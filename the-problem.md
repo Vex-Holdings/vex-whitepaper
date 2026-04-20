@@ -16,19 +16,19 @@ Over longer horizons the gap widens. Since 2000, private equity has returned app
   <div class="vex-chart-title">Growth of $1 invested in 2015, measured through 2024</div>
   <div class="vex-bars">
     <div class="vex-bar-group">
-      <div class="vex-bar" style="height: 79%; background: #c840c0;">
+      <div class="vex-bar" style="height: 79%; background: #F21DDD;">
         <span class="vex-bar-value">$3.96</span>
       </div>
       <div class="vex-bar-label">Private Equity</div>
     </div>
     <div class="vex-bar-group">
-      <div class="vex-bar" style="height: 70%; background: rgba(200,64,192,0.4);">
+      <div class="vex-bar" style="height: 70%; background: rgba(242,29,221,0.4);">
         <span class="vex-bar-value">$3.51</span>
       </div>
       <div class="vex-bar-label">S&P 500</div>
     </div>
     <div class="vex-bar-group">
-      <div class="vex-bar" style="height: 52%; background: rgba(200,64,192,0.2);">
+      <div class="vex-bar" style="height: 52%; background: rgba(242,29,221,0.2);">
         <span class="vex-bar-value">$2.61</span>
       </div>
       <div class="vex-bar-label">MSCI World</div>
@@ -87,6 +87,10 @@ Secondary platforms exist. They inherit the same structural issues: bilateral ne
 
 Private equity has historically outperformed because the best companies stay private. But accessing those returns means accepting the private penalty: illiquidity, opacity, lock up.
 
-The Vex thesis: you can have the liquidity, price discovery, portability, and access of public markets without the regulatory overhead that drives companies private in the first place. The vehicle is the 3(c)(7) exemption from registration under the Investment Company Act of 1940, a federal exemption that lets investment funds operate without public fund overhead as long as every investor meets a wealth threshold. When every SPV follows the same structure, the same terms, and the same data model, positions become fungible. Fungibility enables a market. A market enables price discovery. Price discovery enables liquidity.
+The legal foundation is the 3(c)(7) exemption from registration under the Investment Company Act of 1940. This federal exemption lets investment funds operate without public fund overhead as long as every investor meets a qualified purchaser threshold. When every SPV follows the same structure and the same data model, positions become fungible. Fungibility enables a market. A market enables price discovery. Price discovery enables liquidity.
+
+The remaining question is where deals come from. In traditional private markets, a fund manager selects companies, negotiates terms, and then searches for investors willing to commit. Vex inverts this. Qualified investors browse a catalog of private companies and express demand by committing capital. When enough demand concentrates on a specific company, the SPV forms around that demand through an open book build. The market itself determines what gets structured and at what price.
+
+Investor conviction drives capital formation. Companies that attract real demand get funded. Companies that do not attract demand do not get structured at all. The result is a market where price reflects actual investor appetite rather than a GP's portfolio construction thesis.
 
 *This document is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any securities. Investing in private market securities involves substantial risk, including the possible loss of principal. Past performance is not indicative of future results. Liquidity depends on counterparty availability and is not guaranteed. Neither Vex Securities nor its affiliates facilitate the sale of tokenized units or make recommendations related to their use. Securities offered through Vex Securities LLC, Member FINRA/SIPC.*

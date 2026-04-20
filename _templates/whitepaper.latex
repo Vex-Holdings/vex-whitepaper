@@ -1,14 +1,19 @@
-% Fonts: clean sans-serif via helvet (pdflatex compatible)
-\usepackage[T1]{fontenc}
-\usepackage{helvet}
-\renewcommand{\familydefault}{\sfdefault}
+% Fonts: Vex brand via fontspec (requires xelatex)
+\usepackage{fontspec}
+
+% Vex brand fonts (loaded from Google Fonts via system install or local .ttf)
+% For CI, download TTFs to _assets/fonts/ and uncomment the Path lines.
+\setmainfont{Fraunces}
+\newfontfamily\vexdisplay{Tektur}
+\newfontfamily\vexui{Tomorrow}
 
 % Colors
 \usepackage{xcolor}
-\definecolor{vexdark}{HTML}{1a1625}
-\definecolor{vexaccent}{HTML}{c840c0}
-\definecolor{vextext}{HTML}{e0d8ec}
-\definecolor{vexlink}{HTML}{c840c0}
+\definecolor{vexaccent}{HTML}{F21DDD}
+\definecolor{vexbg}{HTML}{1D083B}
+\definecolor{vextext}{HTML}{FFFFFF}
+\definecolor{vexmuted}{HTML}{A09AAE}
+\definecolor{vexborder}{HTML}{500D62}
 
 % Headers and footers
 \usepackage{fancyhdr}
@@ -16,20 +21,30 @@
 \pagestyle{fancy}
 \fancyhf{}
 \fancyfoot[C]{\thepage}
-\fancyhead[L]{\small\textcolor{gray}{The Case for Standardized Private Markets}}
+\fancyhead[L]{\vexui\small\textcolor{gray}{The Case for Standardized Private Markets}}
 \renewcommand{\headrulewidth}{0pt}
 
-% Section page breaks
+% Section formatting
 \usepackage{titlesec}
 \newcommand{\sectionbreak}{\clearpage}
+
+\titleformat{\section}
+  {\vexdisplay\Large\bfseries\color{vexaccent}}
+  {\thesection}{1em}{}
+\titleformat{\subsection}
+  {\vexui\small\bfseries\color{vexaccent}\MakeUppercase}
+  {}{0em}{}
+\titleformat{\subsubsection}
+  {\bfseries}
+  {}{0em}{}
 
 % Defer hyperref color setup until after pandoc loads hyperref
 \AtBeginDocument{%
   \hypersetup{%
     colorlinks=true,
-    linkcolor=vexlink,
-    urlcolor=vexlink,
-    citecolor=vexlink,
+    linkcolor=vexaccent,
+    urlcolor=vexaccent,
+    citecolor=vexaccent,
   }%
 }
 
@@ -37,13 +52,13 @@
 \AtBeginDocument{%
   \begin{titlepage}
   \newgeometry{margin=0in}
-  \pagecolor{vexdark}
+  \pagecolor{vexbg}
   \begin{center}
   \vspace*{3in}
-  {\fontsize{32}{38}\selectfont\textcolor{white}{\textbf{The Case for Standardized}}}\\[12pt]
-  {\fontsize{32}{38}\selectfont\textcolor{white}{\textbf{Private Markets}}}\\[36pt]
-  {\fontsize{16}{22}\selectfont\textcolor{vextext}{A Vex Platform Whitepaper}}\\[24pt]
-  {\fontsize{12}{16}\selectfont\textcolor{vextext}{March 2026}}
+  {\vexdisplay\fontsize{32}{38}\selectfont\textcolor{white}{\textbf{The Case for Standardized}}}\\[12pt]
+  {\vexdisplay\fontsize{32}{38}\selectfont\textcolor{white}{\textbf{Private Markets}}}\\[36pt]
+  {\fontsize{16}{22}\selectfont\textcolor{vexmuted}{A Vex Platform Whitepaper}}\\[24pt]
+  {\vexui\fontsize{12}{16}\selectfont\textcolor{vexmuted}{April 2026}}
   \end{center}
   \restoregeometry
   \nopagecolor

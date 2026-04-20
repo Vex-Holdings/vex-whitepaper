@@ -6,11 +6,11 @@ nav_order: 1
 
 # The Case for Standardized Private Markets
 
-*A Vex platform whitepaper* · [Download as PDF](vex-whitepaper.pdf) · [Vex Summit, April 11, SF](https://vexsummit.com)
+*A Vex platform whitepaper* · [Download as PDF](vex-whitepaper.pdf)
 
-Vex opens private markets to every qualified investor: the pricing, liquidity, and governance that only VCs get today, available through SEC registered infrastructure.
+Vex starts with investor demand. Qualified investors browse a catalog of private companies, signal interest with capital commitments, and set the price through an open book build. When an anchor investor commits $1M or more to a company, Vex opens the book to all qualified participants. Bids start at $10K. The book build closes at a uniform clearing price, and Vex structures an SPV to deploy the pooled capital.
 
-Private markets have historically outperformed because the best companies avoid the public penalty: SOX compliance, quarterly earnings pressure, governance drag. But private markets impose their own penalty: illiquidity, opacity, GP control over exit timing, capital locked for a decade or longer. Vex eliminates the private penalty without importing the public one. The mechanism: standardized legal structure, valuation, trading, and governance on a single platform.
+This is the opposite of the traditional fund model, where a GP picks companies, locks up capital for a decade, and charges 2/20. Vex charges a 1% annual management fee with no carried interest. Sellers pay a 5% commission. After a 12 month seasoning period, units become eligible for secondary trading on the Vex ATS. Investors should understand that units are illiquid during the seasoning period, secondary liquidity after seasoning is not assured, capital is at risk of total loss, and an SPV may partially deploy or refund capital if the book build does not reach sufficient size.
 
 ## The Vex Platform
 
@@ -24,7 +24,7 @@ The Vex platform ("Vex") comprises three affiliated, regulated entities operatin
 
 ## Who this is for
 
-**For allocators.** Continuous liquidity, real price discovery, 1% annual fee, no carried interest.
+**For allocators.** Browse the catalog, commit through a book build, hold through seasoning, then trade on the ATS. 1% annual fee, no carried interest.
 
 **For companies and shareholders.** Liquidity opportunities for your people without going public.
 
@@ -34,16 +34,14 @@ The Vex platform ("Vex") comprises three affiliated, regulated entities operatin
 
 1. [The Problem](the-problem.html): Private equity has historically outperformed public markets, but accessing those returns means accepting illiquidity, stale pricing, and no portability.
 
-2. [The Vex Model](the-vex-model.html): Four layers of standardization (legal structure, valuation, trading, governance) that make private market positions fungible and tradeable.
+2. [How Vex Works](how-vex-works.html): Full lifecycle from catalog browsing through anchor commitment, open book build, deployment, seasoning, and secondary trading.
 
-3. [How It Works](how-it-works.html): From target identification to exit, every step running through standardized infrastructure.
+3. [Why This Model](why-this-model.html): Structural arguments for demand driven pricing, transparent book builds, and regulated infrastructure over traditional fund structures.
 
-4. [Governance Without Board Seats](governance.html): How conditional equity replaces board seats, advisory committees, and side letters with transparent market pricing.
+4. [What Comes Next](what-comes-next.html): Conditional equity for governance and tokenization for distribution, both on the roadmap.
 
-5. [What Comes Next](what-comes-next.html): The ATS exists today. Tokenization is the bridge. DeFi integrations are where this heads next.
+5. [Why Now](why-now.html): The liquidity crisis is acute, the regulatory window is open, and the technology is ready.
 
-6. [Why Now](why-now.html): The liquidity crisis is acute, the regulatory window is open, and the technology is ready.
-
-7. [Get Started](get-started.html): The infrastructure is live. How allocators and companies can participate.
+6. [Get Started](get-started.html): The infrastructure is live. How allocators and companies can participate.
 
 *This document is for informational purposes only and does not constitute an offer to sell or a solicitation of an offer to buy any securities. Investing in private market securities involves substantial risk, including the possible loss of principal. Past performance is not indicative of future results. Liquidity depends on counterparty availability and is not guaranteed. Vex Securities LLC, Vex Capital, and Vex Registry LLC are affiliated entities under common control. Neither Vex Securities nor its affiliates facilitate the sale of tokenized units or make recommendations related to their use. Securities offered through Vex Securities LLC, Member FINRA/SIPC.*

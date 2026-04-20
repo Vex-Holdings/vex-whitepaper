@@ -1,6 +1,6 @@
 #!/bin/bash
 # Generate a PDF of the whitepaper from the Jekyll markdown source.
-# Requires: pandoc, pdflatex (BasicTeX or TinyTeX)
+# Requires: pandoc, xelatex (BasicTeX or TinyTeX), Tektur + Fraunces + Tomorrow fonts
 #
 # Usage: ./generate-pdf.sh [output-path]
 # Default output: ./vex-whitepaper.pdf
@@ -32,7 +32,7 @@ append_page() {
 replace_mermaid() {
     local infile="$1"
     local outfile="$2"
-    local names="diagram-four-layers diagram-conditional-equity diagram-lifecycle diagram-progression"
+    local names="diagram-lifecycle diagram-conditional-equity diagram-progression"
 
     awk -v names="$names" '
     BEGIN { split(names, arr, " "); idx=0 }
@@ -88,9 +88,8 @@ replace_charts() {
 echo "Assembling content..."
 
 append_page "the-problem.md"
-append_page "the-vex-model.md"
-append_page "how-it-works.md"
-append_page "governance.md"
+append_page "how-vex-works.md"
+append_page "why-this-model.md"
 append_page "what-comes-next.md"
 append_page "why-now.md"
 append_page "get-started.md"
@@ -126,10 +125,10 @@ pandoc "$PROCESSED3" \
     -o "$TEXFILE"
 
 echo "Compiling PDF (pass 1)..."
-(cd "$TMPDIR" && pdflatex -interaction=nonstopmode whitepaper.tex > /dev/null 2>&1)
+(cd "$TMPDIR" && xelatex -interaction=nonstopmode whitepaper.tex > /dev/null 2>&1)
 
 echo "Compiling PDF (pass 2)..."
-(cd "$TMPDIR" && pdflatex -interaction=nonstopmode whitepaper.tex > /dev/null 2>&1)
+(cd "$TMPDIR" && xelatex -interaction=nonstopmode whitepaper.tex > /dev/null 2>&1)
 
 cp "$TMPDIR/whitepaper.pdf" "$OUTPUT"
 rm -rf "$TMPDIR"
