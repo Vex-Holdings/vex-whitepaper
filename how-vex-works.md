@@ -17,13 +17,13 @@ graph LR
     E --> F["Seasoning"]
     F --> G["Trading"]
 
-    style A fill:#1a1625,stroke:#c840c0,color:#e0d8ec
-    style B fill:#1a1625,stroke:#c840c0,color:#e0d8ec
-    style C fill:#1a1625,stroke:#c840c0,color:#e0d8ec
-    style D fill:#1a1625,stroke:#c840c0,color:#e0d8ec
-    style E fill:#1a1625,stroke:#c840c0,color:#e0d8ec
-    style F fill:#1a1625,stroke:#c840c0,color:#e0d8ec
-    style G fill:#1a1625,stroke:#c840c0,color:#e0d8ec
+    style A fill:#1D083B,stroke:#F21DDD,color:#a09aae
+    style B fill:#1D083B,stroke:#F21DDD,color:#a09aae
+    style C fill:#1D083B,stroke:#F21DDD,color:#a09aae
+    style D fill:#1D083B,stroke:#F21DDD,color:#a09aae
+    style E fill:#1D083B,stroke:#F21DDD,color:#a09aae
+    style F fill:#1D083B,stroke:#F21DDD,color:#a09aae
+    style G fill:#1D083B,stroke:#F21DDD,color:#a09aae
 ```
 
 ## Catalog

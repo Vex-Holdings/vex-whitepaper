@@ -22,12 +22,12 @@ graph LR
     B -->|"Outcome A happens"| E["Class B expires<br/>worthless"]
     B -->|"Outcome A does not happen"| F["Class A expires<br/>worthless"]
 
-    style A fill:#1a1625,stroke:#c840c0,color:#e0d8ec
-    style B fill:#1a1625,stroke:#c840c0,color:#e0d8ec
-    style C fill:#1a1625,stroke:#59b359,color:#e0d8ec
-    style D fill:#1a1625,stroke:#59b359,color:#e0d8ec
-    style E fill:#1a1625,stroke:#cc4444,color:#e0d8ec
-    style F fill:#1a1625,stroke:#cc4444,color:#e0d8ec
+    style A fill:#1D083B,stroke:#F21DDD,color:#a09aae
+    style B fill:#1D083B,stroke:#F21DDD,color:#a09aae
+    style C fill:#1D083B,stroke:#45F08C,color:#a09aae
+    style D fill:#1D083B,stroke:#45F08C,color:#a09aae
+    style E fill:#1D083B,stroke:#F04545,color:#a09aae
+    style F fill:#1D083B,stroke:#F04545,color:#a09aae
 ```
 
 The relative price of the two classes encodes the market's probability estimate and implied valuation under each scenario. If "pivot" units trade at $1.20 and "no pivot" units trade at $0.80, the market is pricing a 60% probability that the pivot happens and pricing the company higher under that scenario. That is not an opinion. It is capital at risk.
@@ -47,9 +47,9 @@ graph LR
     A["Today<br/><i>ATS + book entry</i>"] --> B["Bridge<br/><i>Tokenization</i>"]
     B --> C["Tomorrow<br/><i>AMMs + lending<br/>+ composability</i>"]
 
-    style A fill:#1a1625,stroke:#c840c0,color:#e0d8ec
-    style B fill:#1a1625,stroke:#d4a853,color:#e0d8ec
-    style C fill:#1a1625,stroke:#59b359,color:#e0d8ec
+    style A fill:#1D083B,stroke:#F21DDD,color:#a09aae
+    style B fill:#1D083B,stroke:#FFAA2B,color:#a09aae
+    style C fill:#1D083B,stroke:#45F08C,color:#a09aae
 ```
 
 ## Tokenization is the bridge

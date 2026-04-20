@@ -16,19 +16,19 @@ Over longer horizons the gap widens. Since 2000, private equity has returned app
   <div class="vex-chart-title">Growth of $1 invested in 2015, measured through 2024</div>
   <div class="vex-bars">
     <div class="vex-bar-group">
-      <div class="vex-bar" style="height: 79%; background: #c840c0;">
+      <div class="vex-bar" style="height: 79%; background: #F21DDD;">
         <span class="vex-bar-value">$3.96</span>
       </div>
       <div class="vex-bar-label">Private Equity</div>
     </div>
     <div class="vex-bar-group">
-      <div class="vex-bar" style="height: 70%; background: rgba(200,64,192,0.4);">
+      <div class="vex-bar" style="height: 70%; background: rgba(242,29,221,0.4);">
         <span class="vex-bar-value">$3.51</span>
       </div>
       <div class="vex-bar-label">S&P 500</div>
     </div>
     <div class="vex-bar-group">
-      <div class="vex-bar" style="height: 52%; background: rgba(200,64,192,0.2);">
+      <div class="vex-bar" style="height: 52%; background: rgba(242,29,221,0.2);">
         <span class="vex-bar-value">$2.61</span>
       </div>
       <div class="vex-bar-label">MSCI World</div>

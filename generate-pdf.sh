@@ -1,6 +1,6 @@
 #!/bin/bash
 # Generate a PDF of the whitepaper from the Jekyll markdown source.
-# Requires: pandoc, pdflatex (BasicTeX or TinyTeX)
+# Requires: pandoc, xelatex (BasicTeX or TinyTeX), Tektur + Fraunces + Tomorrow fonts
 #
 # Usage: ./generate-pdf.sh [output-path]
 # Default output: ./vex-whitepaper.pdf
@@ -125,10 +125,10 @@ pandoc "$PROCESSED3" \
     -o "$TEXFILE"
 
 echo "Compiling PDF (pass 1)..."
-(cd "$TMPDIR" && pdflatex -interaction=nonstopmode whitepaper.tex > /dev/null 2>&1)
+(cd "$TMPDIR" && xelatex -interaction=nonstopmode whitepaper.tex > /dev/null 2>&1)
 
 echo "Compiling PDF (pass 2)..."
-(cd "$TMPDIR" && pdflatex -interaction=nonstopmode whitepaper.tex > /dev/null 2>&1)
+(cd "$TMPDIR" && xelatex -interaction=nonstopmode whitepaper.tex > /dev/null 2>&1)
 
 cp "$TMPDIR/whitepaper.pdf" "$OUTPUT"
 rm -rf "$TMPDIR"
