@@ -28,7 +28,7 @@ Push to `main` triggers GitHub Actions (`.github/workflows/pages.yml`) which bui
 ### Content pages (root directory)
 Markdown files with Jekyll frontmatter (`nav_order` controls sidebar ordering):
 - `index.md` (Home, nav_order: 1)
-- `the-problem.md`, `the-vex-model.md`, `how-it-works.md`, `what-comes-next.md`, `why-now.md`, `get-started.md`
+- `the-problem.md`, `how-vex-works.md`, `why-this-model.md`, `what-comes-next.md`, `why-now.md`, `get-started.md`
 
 Pages use Mermaid diagrams (rendered client-side via just-the-docs mermaid support) and inline HTML chart components styled with custom CSS classes (`vex-chart`, `vex-bars`, `vex-trend`, etc.).
 
